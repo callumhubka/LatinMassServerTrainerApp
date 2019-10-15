@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Latin_Mass_Server_Trainer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yx-Mv-Yh9">
+                                <rect key="frame" x="20" y="44" width="374" height="412"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="80"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Learn!" backgroundImage="IMG_1167.jpg">
+                                    <color key="titleColor" red="0.42260205745697021" green="0.085533015429973602" blue="0.11383751779794693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="MVU-uC-mkW" kind="show" id="Vuc-cl-lwQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlH-3C-g7F">
+                                <rect key="frame" x="20" y="464" width="374" height="412"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="80"/>
+                                <state key="normal" title="Quiz!" backgroundImage="IMG_1013.jpg">
+                                    <color key="titleColor" red="0.42260205745697021" green="0.085533015429973602" blue="0.11383751779794693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lfP-kI-XV6" kind="show" id="1KB-2C-d0t"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QlH-3C-g7F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3Jy-cy-3oX"/>
+                            <constraint firstItem="QlH-3C-g7F" firstAttribute="height" secondItem="5yx-Mv-Yh9" secondAttribute="height" id="5S2-g2-mEc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5yx-Mv-Yh9" secondAttribute="trailing" constant="20" id="Lac-a4-TiX"/>
+                            <constraint firstItem="QlH-3C-g7F" firstAttribute="top" secondItem="5yx-Mv-Yh9" secondAttribute="bottom" constant="8" id="MHi-Lt-aUM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QlH-3C-g7F" secondAttribute="trailing" constant="20" id="P0s-Re-ut3"/>
+                            <constraint firstItem="5yx-Mv-Yh9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PfJ-a5-vw0"/>
+                            <constraint firstItem="QlH-3C-g7F" firstAttribute="top" secondItem="5yx-Mv-Yh9" secondAttribute="bottom" constant="8" id="Xyy-0G-cwl"/>
+                            <constraint firstItem="5yx-Mv-Yh9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Z4p-Ys-fKc"/>
+                            <constraint firstAttribute="bottom" secondItem="QlH-3C-g7F" secondAttribute="bottom" constant="20" id="pJV-A8-sPn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="117.85714285714285"/>
+        </scene>
+        <!--Solemn Mass View Controller-->
+        <scene sceneID="WLu-KM-uhQ">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="OSp-T9-lmr" customClass="SolemnMassViewController" customModule="Latin_Mass_Server_Trainer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YdK-Hl-zGQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UKD-X3-BoJ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Solemn High Mass" id="JBW-16-k9m">
+                                        <barButtonItem key="rightBarButtonItem" title="Home" id="rUk-Eb-iC5">
+                                            <connections>
+                                                <segue destination="KTq-S1-cgm" kind="unwind" unwindAction="solemnMassUnwindWithUnwindSegue:" id="eoe-CO-XE0"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHQ-2o-kXX">
+                                <rect key="frame" x="0.0" y="96" width="414" height="185.5"/>
+                                <state key="normal" title="MC (ommitted if only three servers)"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDW-ma-fd9">
+                                <rect key="frame" x="0.0" y="289.5" width="414" height="185.5"/>
+                                <state key="normal" title="Acolyte 1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfe-L4-wCt">
+                                <rect key="frame" x="0.0" y="483" width="414" height="185.5"/>
+                                <state key="normal" title="Acolyte 2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tJ-D4-yal">
+                                <rect key="frame" x="0.0" y="676.5" width="414" height="185.5"/>
+                                <state key="normal" title="Thurifer"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jfe-L4-wCt" firstAttribute="leading" secondItem="MtZ-FZ-GDd" secondAttribute="leading" id="0i7-Er-JgQ"/>
+                            <constraint firstItem="jfe-L4-wCt" firstAttribute="top" secondItem="RDW-ma-fd9" secondAttribute="bottom" constant="8" id="1AJ-g0-xZ5"/>
+                            <constraint firstItem="RDW-ma-fd9" firstAttribute="top" secondItem="ZHQ-2o-kXX" secondAttribute="bottom" constant="8" id="42t-g8-6wt"/>
+                            <constraint firstItem="7tJ-D4-yal" firstAttribute="top" secondItem="jfe-L4-wCt" secondAttribute="bottom" constant="8" id="4Wm-Gi-lWG"/>
+                            <constraint firstItem="7tJ-D4-yal" firstAttribute="height" secondItem="ZHQ-2o-kXX" secondAttribute="height" id="5l8-jw-LS3"/>
+                            <constraint firstItem="MtZ-FZ-GDd" firstAttribute="bottom" secondItem="7tJ-D4-yal" secondAttribute="bottom" id="Bia-Zg-ZZj"/>
+                            <constraint firstItem="UKD-X3-BoJ" firstAttribute="trailing" secondItem="MtZ-FZ-GDd" secondAttribute="trailing" id="BnD-GQ-J1c"/>
+                            <constraint firstItem="MtZ-FZ-GDd" firstAttribute="trailing" secondItem="RDW-ma-fd9" secondAttribute="trailing" id="Cl9-p6-cSk"/>
+                            <constraint firstItem="RDW-ma-fd9" firstAttribute="top" secondItem="ZHQ-2o-kXX" secondAttribute="bottom" constant="8" id="EGv-bu-fy6"/>
+                            <constraint firstItem="UKD-X3-BoJ" firstAttribute="leading" secondItem="MtZ-FZ-GDd" secondAttribute="leading" id="MOS-u4-ujO"/>
+                            <constraint firstItem="7tJ-D4-yal" firstAttribute="leading" secondItem="MtZ-FZ-GDd" secondAttribute="leading" id="Ob5-I5-Xrc"/>
+                            <constraint firstItem="RDW-ma-fd9" firstAttribute="leading" secondItem="MtZ-FZ-GDd" secondAttribute="leading" id="S0P-c7-Wyk"/>
+                            <constraint firstItem="MtZ-FZ-GDd" firstAttribute="trailing" secondItem="ZHQ-2o-kXX" secondAttribute="trailing" id="S3c-x4-XIG"/>
+                            <constraint firstItem="UKD-X3-BoJ" firstAttribute="top" secondItem="MtZ-FZ-GDd" secondAttribute="top" id="SiD-oj-PQc"/>
+                            <constraint firstItem="7tJ-D4-yal" firstAttribute="top" secondItem="jfe-L4-wCt" secondAttribute="bottom" constant="8" id="UzO-F7-3Iy"/>
+                            <constraint firstItem="MtZ-FZ-GDd" firstAttribute="trailing" secondItem="jfe-L4-wCt" secondAttribute="trailing" id="bgI-pm-v0W"/>
+                            <constraint firstItem="RDW-ma-fd9" firstAttribute="height" secondItem="ZHQ-2o-kXX" secondAttribute="height" id="bjn-Et-Xay"/>
+                            <constraint firstItem="ZHQ-2o-kXX" firstAttribute="top" secondItem="UKD-X3-BoJ" secondAttribute="bottom" constant="8" id="c1O-2R-c5E"/>
+                            <constraint firstItem="jfe-L4-wCt" firstAttribute="top" secondItem="RDW-ma-fd9" secondAttribute="bottom" constant="8" id="fQL-D6-hJH"/>
+                            <constraint firstItem="jfe-L4-wCt" firstAttribute="height" secondItem="ZHQ-2o-kXX" secondAttribute="height" id="gxY-nr-Bk1"/>
+                            <constraint firstItem="ZHQ-2o-kXX" firstAttribute="leading" secondItem="MtZ-FZ-GDd" secondAttribute="leading" id="yEe-LA-gp8"/>
+                            <constraint firstItem="MtZ-FZ-GDd" firstAttribute="trailing" secondItem="7tJ-D4-yal" secondAttribute="trailing" id="yL6-v8-VQM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MtZ-FZ-GDd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ig1-j3-hn6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="KTq-S1-cgm" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1019" y="118"/>
+        </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="947-pg-XZD">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="lfP-kI-XV6" customClass="QuizViewController" customModule="Latin_Mass_Server_Trainer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KSf-Fr-c3e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aRZ-s3-nbO">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Quiz" id="2zo-MM-V3Q">
+                                        <barButtonItem key="rightBarButtonItem" title="Home" id="Q6F-uv-Fih">
+                                            <connections>
+                                                <segue destination="Hrx-Ec-oRk" kind="unwind" unwindAction="quizUnwindWithUnwindSegue:" id="qd2-FI-FGO"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quizzes coming soon!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ht-yx-cWl">
+                                <rect key="frame" x="123" y="358" width="169" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aRZ-s3-nbO" firstAttribute="top" secondItem="aG4-Vo-TBa" secondAttribute="top" id="VMb-Hw-uPc"/>
+                            <constraint firstItem="aRZ-s3-nbO" firstAttribute="trailing" secondItem="aG4-Vo-TBa" secondAttribute="trailing" id="jfG-zI-Ozp"/>
+                            <constraint firstItem="aRZ-s3-nbO" firstAttribute="leading" secondItem="aG4-Vo-TBa" secondAttribute="leading" id="sf5-t1-oYr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aG4-Vo-TBa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BCh-E3-pmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Hrx-Ec-oRk" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="887"/>
+        </scene>
+        <!--Learn View Controller-->
+        <scene sceneID="ffb-aS-IrA">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="MVU-uC-mkW" customClass="LearnViewController" customModule="Latin_Mass_Server_Trainer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nRl-Fu-R37">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0n7-2w-QQX">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Learn" id="AW7-wd-7zy">
+                                        <barButtonItem key="rightBarButtonItem" title="Home" id="Dtp-Nr-sr8">
+                                            <connections>
+                                                <segue destination="GPT-iM-tfy" kind="unwind" unwindAction="learnUnwindWithUnwindSegue:" id="sWk-zd-ykf"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPC-hu-FOy">
+                                <rect key="frame" x="0.0" y="287.5" width="414" height="183.5"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Low Mass">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="snY-YP-IQY" kind="show" id="4Dl-Er-oIo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ng-rz-hM6">
+                                <rect key="frame" x="0.0" y="479" width="414" height="183.5"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Missa Cantata">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uCH-T9-y3O" kind="show" id="DoQ-hd-9Le"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yil-iY-hcd">
+                                <rect key="frame" x="0.0" y="670.5" width="414" height="183.5"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Solemn High Mass">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="OSp-T9-lmr" kind="show" id="Vej-Jg-p2J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPa-b3-fKC">
+                                <rect key="frame" x="0.0" y="96" width="414" height="183.5"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="General Knowledge">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Sv3-gw-aKi" kind="show" id="hKk-1T-9Er"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yil-iY-hcd" firstAttribute="height" secondItem="pPa-b3-fKC" secondAttribute="height" id="152-JL-bzh"/>
+                            <constraint firstItem="0Ng-rz-hM6" firstAttribute="top" secondItem="vPC-hu-FOy" secondAttribute="bottom" constant="8" id="3OO-yL-bIv"/>
+                            <constraint firstItem="pPa-b3-fKC" firstAttribute="leading" secondItem="fBu-Lh-aq3" secondAttribute="leading" id="44O-aG-PdN"/>
+                            <constraint firstItem="0Ng-rz-hM6" firstAttribute="height" secondItem="pPa-b3-fKC" secondAttribute="height" id="4be-B4-0cV"/>
+                            <constraint firstItem="pPa-b3-fKC" firstAttribute="leading" secondItem="fBu-Lh-aq3" secondAttribute="leading" id="6H1-B4-HQo"/>
+                            <constraint firstItem="fBu-Lh-aq3" firstAttribute="trailing" secondItem="vPC-hu-FOy" secondAttribute="trailing" id="8o4-Dn-O9C"/>
+                            <constraint firstItem="0n7-2w-QQX" firstAttribute="trailing" secondItem="fBu-Lh-aq3" secondAttribute="trailing" id="B2r-QB-OQQ"/>
+                            <constraint firstItem="0Ng-rz-hM6" firstAttribute="leading" secondItem="fBu-Lh-aq3" secondAttribute="leading" id="FCQ-4Q-Rz9"/>
+                            <constraint firstItem="yil-iY-hcd" firstAttribute="trailing" secondItem="fBu-Lh-aq3" secondAttribute="trailing" id="G4d-Nk-gSj"/>
+                            <constraint firstItem="pPa-b3-fKC" firstAttribute="trailing" secondItem="fBu-Lh-aq3" secondAttribute="trailing" id="JK0-Or-Xab"/>
+                            <constraint firstItem="vPC-hu-FOy" firstAttribute="leading" secondItem="fBu-Lh-aq3" secondAttribute="leading" id="OWc-mc-7ht"/>
+                            <constraint firstItem="vPC-hu-FOy" firstAttribute="trailing" secondItem="fBu-Lh-aq3" secondAttribute="trailing" id="Q0G-Vw-mdk"/>
+                            <constraint firstItem="vPC-hu-FOy" firstAttribute="height" secondItem="pPa-b3-fKC" secondAttribute="height" id="QFw-gO-dZr"/>
+                            <constraint firstItem="yil-iY-hcd" firstAttribute="leading" secondItem="fBu-Lh-aq3" secondAttribute="leading" id="Vch-dm-SKy"/>
+                            <constraint firstItem="fBu-Lh-aq3" firstAttribute="trailing" secondItem="0Ng-rz-hM6" secondAttribute="trailing" id="Yth-qa-zSE"/>
+                            <constraint firstItem="pPa-b3-fKC" firstAttribute="top" secondItem="0n7-2w-QQX" secondAttribute="bottom" constant="8" id="b1V-tc-nSq"/>
+                            <constraint firstItem="pPa-b3-fKC" firstAttribute="leading" secondItem="fBu-Lh-aq3" secondAttribute="leading" id="bWV-YT-tmC"/>
+                            <constraint firstItem="vPC-hu-FOy" firstAttribute="top" secondItem="pPa-b3-fKC" secondAttribute="bottom" constant="8" id="bgi-gy-K9b"/>
+                            <constraint firstItem="fBu-Lh-aq3" firstAttribute="trailing" secondItem="pPa-b3-fKC" secondAttribute="trailing" id="dRz-Ct-g2E"/>
+                            <constraint firstItem="vPC-hu-FOy" firstAttribute="leading" secondItem="fBu-Lh-aq3" secondAttribute="leading" id="dWS-xk-Ze8"/>
+                            <constraint firstItem="fBu-Lh-aq3" firstAttribute="trailing" secondItem="yil-iY-hcd" secondAttribute="trailing" id="eiM-ef-2Xx"/>
+                            <constraint firstItem="pPa-b3-fKC" firstAttribute="top" secondItem="0n7-2w-QQX" secondAttribute="bottom" constant="8" id="f6O-U5-CzD"/>
+                            <constraint firstItem="yil-iY-hcd" firstAttribute="leading" secondItem="fBu-Lh-aq3" secondAttribute="leading" id="pFs-iu-OVU"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="yil-iY-hcd" secondAttribute="bottom" constant="8" id="pZO-Uu-E4s"/>
+                            <constraint firstItem="fBu-Lh-aq3" firstAttribute="trailing" secondItem="pPa-b3-fKC" secondAttribute="trailing" id="sR5-rh-mLe"/>
+                            <constraint firstItem="0Ng-rz-hM6" firstAttribute="trailing" secondItem="fBu-Lh-aq3" secondAttribute="trailing" id="uSB-dR-XkY"/>
+                            <constraint firstItem="0n7-2w-QQX" firstAttribute="leading" secondItem="fBu-Lh-aq3" secondAttribute="leading" id="upm-rY-pAn"/>
+                            <constraint firstItem="0n7-2w-QQX" firstAttribute="top" secondItem="fBu-Lh-aq3" secondAttribute="top" id="vMI-Lu-IYJ"/>
+                            <constraint firstItem="0Ng-rz-hM6" firstAttribute="leading" secondItem="fBu-Lh-aq3" secondAttribute="leading" id="w19-cT-lZE"/>
+                            <constraint firstItem="yil-iY-hcd" firstAttribute="top" secondItem="0Ng-rz-hM6" secondAttribute="bottom" constant="8" id="xwV-F6-1Kk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fBu-Lh-aq3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1lG-34-q6z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="GPT-iM-tfy" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-627"/>
+        </scene>
+        <!--General Knowledge View Controller-->
+        <scene sceneID="Zml-kc-dqT">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="Sv3-gw-aKi" customClass="GeneralKnowledgeViewController" customModule="Latin_Mass_Server_Trainer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fbe-RX-Mzh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAN-HN-ZZE">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="General Knowledge" id="rAw-4E-aEO">
+                                        <barButtonItem key="leftBarButtonItem" id="QiW-td-sYB"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Home" id="ADE-ga-GxU">
+                                            <connections>
+                                                <segue destination="gIN-nS-pJf" kind="unwind" unwindAction="generalKnowledgeUnwindWithUnwindSegue:" id="w9g-jP-X42"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTq-pJ-2SK">
+                                <rect key="frame" x="0.0" y="483" width="414" height="379"/>
+                                <state key="normal" title="Sitting in Choir"/>
+                                <connections>
+                                    <action selector="showSittingInChoir:" destination="Sv3-gw-aKi" eventType="touchUpInside" id="hLU-Hb-l0v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LM-c5-MNT">
+                                <rect key="frame" x="0.0" y="96" width="414" height="379"/>
+                                <state key="normal" title="General Serving Knowledge">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showGeneralKnowledge:" destination="Sv3-gw-aKi" eventType="touchUpInside" id="G7E-kN-wfz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WTq-pJ-2SK" firstAttribute="top" secondItem="4LM-c5-MNT" secondAttribute="bottom" constant="8" id="EoV-68-SVR"/>
+                            <constraint firstItem="eAN-HN-ZZE" firstAttribute="top" secondItem="raB-MV-mVz" secondAttribute="top" id="ErZ-BQ-Rd7"/>
+                            <constraint firstItem="raB-MV-mVz" firstAttribute="bottom" secondItem="WTq-pJ-2SK" secondAttribute="bottom" id="GRm-RB-59k"/>
+                            <constraint firstItem="WTq-pJ-2SK" firstAttribute="height" secondItem="4LM-c5-MNT" secondAttribute="height" id="R9M-iI-xmv"/>
+                            <constraint firstItem="4LM-c5-MNT" firstAttribute="top" secondItem="eAN-HN-ZZE" secondAttribute="bottom" constant="8" id="a3R-DT-4ep"/>
+                            <constraint firstItem="WTq-pJ-2SK" firstAttribute="top" secondItem="4LM-c5-MNT" secondAttribute="bottom" constant="8" id="bNu-Al-Tgj"/>
+                            <constraint firstItem="eAN-HN-ZZE" firstAttribute="trailing" secondItem="raB-MV-mVz" secondAttribute="trailing" id="cSc-Tc-IWt"/>
+                            <constraint firstItem="raB-MV-mVz" firstAttribute="trailing" secondItem="4LM-c5-MNT" secondAttribute="trailing" id="g5u-bb-nVh"/>
+                            <constraint firstItem="eAN-HN-ZZE" firstAttribute="leading" secondItem="raB-MV-mVz" secondAttribute="leading" id="gx1-En-FQH"/>
+                            <constraint firstItem="WTq-pJ-2SK" firstAttribute="leading" secondItem="raB-MV-mVz" secondAttribute="leading" id="i9H-dS-Oaf"/>
+                            <constraint firstItem="4LM-c5-MNT" firstAttribute="leading" secondItem="raB-MV-mVz" secondAttribute="leading" id="mzg-rr-PXT"/>
+                            <constraint firstItem="raB-MV-mVz" firstAttribute="trailing" secondItem="WTq-pJ-2SK" secondAttribute="trailing" id="zMK-aC-VXF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="raB-MV-mVz"/>
+                    </view>
+                    <connections>
+                        <outlet property="blurView" destination="c7z-kg-Dpa" id="tt5-ag-2UL"/>
+                        <outlet property="generalPopupView" destination="c4h-a8-kez" id="fxF-P3-9Rm"/>
+                        <outlet property="sittingPopupView" destination="Qnf-0D-WFh" id="5pL-ua-WTY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9y5-Fe-mLY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="c4h-a8-kez">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="360"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fsc-oa-xTa">
+                            <rect key="frame" x="0.0" y="330" width="240" height="30"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="HGh-Hb-7DI"/>
+                                <constraint firstAttribute="height" constant="30" id="oIC-Bl-5MX"/>
+                            </constraints>
+                            <state key="normal" title="Done"/>
+                            <connections>
+                                <action selector="doneGeneral:" destination="Sv3-gw-aKi" eventType="touchUpInside" id="UH4-9j-MZ4"/>
+                            </connections>
+                        </button>
+                        <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LZf-3a-hEw">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="326"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <string key="text">General knowledge for serving - DRAFT 2 - 
+
+Basics:
+
+Whenever you walk across the line from the center of the altar to the back of the Church, always stop and genuflect (kneel) on your right knee towards the Cruficix on the center of the altar. 
+
+Unlike in Germanic languages such as English, there are not clear breaks in-between words in Latin. Thus, if a word ends in “s” and the next word begins in “s” the words may flow together. This does not mean one may be lazy in their pronunciation, but this more fluid approach to words does make them flow off of your tongue better. 
+
+There are two kinds of bows:
+Simple bows (referred to from here on as “bows”) are only a bow of the head straight ahead.
+Profound bows are a larger head bow with the shoulders and upper body moving roughly 1 inch forward in the process and always towards the altar cross.
+
+“✚” signifies to do the sign of the cross.
+“‡” signifies to strike the breast (left side of chest over your heart) with your hand.
+“P” indicates that the priest is to say these prayers.
+“S” indicates that the server is to say these prayers.
+
+Prayers you need to learn:
+
+These are the prayers prayed by the priest and the server. Most prayers prayed by the priest are ommitted and only enough are retained to give sufficient context for when the server must say their prayers or do certain things during the Mass. While the server does not need to have the priest’s prayers memorized, the server must be familiar enough with them that he know when to begin his prayers without any pauses or hesitation. While the translations are not included here, it is expected that servers will be familiar with the meanings of what they are praying. Good translations of the prayers can be found in many different missals found at most parishes that have the Latin Mass as well as on various websites online.
+
+P In nómine Patris ✚ et Fíllii, et Spíritus Sancti. Amen.
+P Introíbo ad altáre Dei.
+S Ad Deum qui lætíficat iuventútem meam.
+P Iúdica me, Deus et discérne causam meam de gente non sancta: ab hómine iníquo, et dolóso érue me.
+S Quia tu es Deus fortitúdo mea: quare me repulísti, et quare tristis incédo, dum afflígit me inimícus?
+P Emítte lucem tuam, et veritátem tuam: ipsa me deduxérunt, et adduxérunt in montem santum tuum et in tabernácula tua.
+S Et introíbo ad altáre Dei: ad Deum qui lætíficat iuventútem meam.
+P Confitébor tibi in cíthara, Deus, Deus meus: quare tristis es ánima mea, et quare contúrbas me?
+S Spera in Deo, quóniam adhunc confitébor illi: salutáre vlutus mei, et Deus meus.
+P Glória Patri, et Fílio et Spíritui Sancto.
+S Sicut erat in princípio, et nunc, et semper: et in sæcula saeculórum. Amen.
+P Introíbo ad altáre Dei.
+S Ad Deum qui lætifícat iuventútem meam.
+P Adjutórium ✚ nostrum in nómine Dómini.
+S Qui fecit cœlum et terram.
+P Confítior Deo omnipoténti…oráre pro me ad Dóminum Deum Nostrum.
+S Misereátur tui omnípotens Deus, et dimíssis peccátis tuis, perdúcat te ad vitam ætérnam.
+P Amen.
+	Bow head and upper body low and say.
+S Confíteor Deo omnipoténti, beátæ Maríæ semper Virgini, beáto Michaéli Archángelo, beáto Ioánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus Sanctis, (turn toward the priest during these words and then return to bowing straight ahead) et tibi pater: quia peccávi nimis cogitatióne, verbo, et opere: mea culpa ‡ , mea culpa ‡, mea máxima culpa ‡ . Ideo precor beátam Maríam semper Vírginem, beátam Michaélem Archángelum, beátum Iuánnem Baptístam, sanctos Apóstolos Petrum et Paulum, omnes Sanctos, (turn toward the priest during these words and then return to bowing straight ahead) et te pater, oráre pro me ad Dóminum Deum Nostrum.
+P Misereátur tu omnípotens … ad vitam ætérnam. Amen
+	The bow ends here. Kneel straight up.
+P Indulgéntiam, ✚ absolutiónem … et miséricors Dóminus. Amen.
+P Deus, tu convérsus vivificábis nos.
+S Et plebs tua lætábitur in te.
+P Osténde nobis, Dómine, misericórdiam tuam.
+S Et Salutáre tuum da nobis.
+P Dómine, exáudi oratiónem meam. S Et clamor meus ad te véniat.
+P Dominus vobíscum.
+S Et cum spíritu tuo.
+	As the priest ascends the stairs, lift the front of his alb so he does not trip on it.
+ …
+	After the Introit the priest returns to the center of the altar.
+P Kyrie, eléison.
+S Kyrie, eléison.
+P Kyrie, eléison.
+S Christe, eléison.
+P Christe, eléison.
+S Christe, eléison.
+P Kyrie, eléison.
+S Kyrie, eléison.
+P Kyrie, eléison.
+…
+	After the Gloria, the priest returns to the altar and says:
+P Dóminus vobíscum.
+S Et cum spíritu tuo.
+…
+	At the end of the first and last (if there is more than one) Collect, the server will respond at the end:
+S Amen.
+…
+	At the end of the Epistle the server will respond.
+S Deo grátias.
+…
+	Just prior to the Gospel the priest begins.
+P Dóminus vobíscum.
+S Et cum spíritu tuo.
+P Sequéntia (or Inítium) sancti Evangélii secundum (name of the gospel)
+S Glória tibi Domine.
+	At the end of the Gospel the server will respond.
+S Laus tibi Christe.
+…
+P Dóminus vobíscum.
+S Et cum spíritu tuo.
+…
+P Oráte, fratres: ut meum ac vestrum sacrifīcium acceptäbile fiat apud Deum Patrem omnipoténtem.
+S Sucípiat Dóminus sacrifícium de mánibus tuis (if the server is the only person other than the priest at Mass “meis”) ad laudem, et glóriam nóminis sui, ad utilitátem quoque nostram, totiúsque Ecclésiæ suæ sanctæ.
+…
+P Per ómnia sæcula sæculórum.
+S Amen.
+P Dóminus vobíscum.
+S Et cum spíritu tuo.
+P Sursum corda.
+S Habémus ad Dóminum.
+P Grátias agámus Dómino Deo nostro.
+S Dignum et iustum est.
+…
+P Sanctus, Sanctus, Sanctus Dóminus Deus Sábaoth. Pleni sunt cæli et terra glória tua. Hosánna in excélsis. Benedictus ✚ qui venit in nómine Dómini. Hosánna in excélsis.
+…
+P Per ómnia sæcula sæculórum.
+S Amen.
+P Orémus: Præcéptis salutáribus móniti, et divína institutióne formáti, audémus dícere: Pater noster, qui es in cális: Sanctificétur nomen tuum: Advéniat regnum tuum: Fiat volúntas tua, sicut in cälo, et in terra. Panem nostrum cotidiánum da nobis hódie: Et dimítte nobis débita nostra, sicut et nos demíttimus debitóribus nostris. Et ne nos indúcas in tentatiónem.
+S Sed líbera nos a malo.
+…
+P Per ómnia sæcula sæculórum.
+S Amen
+…
+P Agnus Dei, qui tollis peccáta mundi: miserére nobis ‡. Agnus Dei, qui tollis peccáta mundi: miserére nobis ‡ . Agnus Dei, qui tollis peccáta mundi: dona nobis pacem ‡ .
+…
+P Ecce Agnus Dei, ecce qui tollit peccáta mundi.
+P Dómine ‡ non sum dignus, ut intres sub tectum meaum: sed tantum dic verbo, et sanábitur ánima mea. Dómine ‡ non sum dignus, ut intres sub tectum meaum: sed tantum dic verbo, et sanábitur ánima mea. Dómine ‡ non sum dignus, ut intres sub tectum meaum: sed tantum dic verbo, et sanábitur ánima mea.
+…
+P Dóminus vobíscum.
+S Et cum spíritu tuo.
+P Orémus.
+	At the end of the collect:
+S Amen.
+P Dóminus vobíscum.
+S Et cum spíritu tuo.
+P Ite, missa est (or on some occasions): Benedicámus Dómino.
+S Deo grátias.
+P Benedícat vos omnípotens Deus, Pater ✚ , et Fílius, et Spíritus Sanctus.
+S Amen.
+P Dóminus vobíscrum.
+S Et cum spíritu tuo.
+P Inítium sancti Evangélii secúndum Ioánnem.
+S Glória tibi, Dómine.
+P In princípio erat … neque ex voluntáte carnis, neque ex voluntáte viri, sed ex Deo nati sunt (Genuflect) Et Verbum caro factum est (Rise), et habitávit in nobis: et vídimus glóriam eius, glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.
+S Deo grátias.
+
+	After processing out the priest will turn to the servers:
+P Procit.
+	Kneel.
+S Per ómnibus et síngulis.
+P Benedíctio ... ✚ … Amen.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="LZf-3a-hEw" firstAttribute="top" secondItem="c4h-a8-kez" secondAttribute="top" id="7v1-hU-bsJ"/>
+                        <constraint firstItem="LZf-3a-hEw" firstAttribute="trailing" secondItem="vlx-dE-fcZ" secondAttribute="trailing" id="Gce-HA-R4B"/>
+                        <constraint firstItem="LZf-3a-hEw" firstAttribute="leading" secondItem="vlx-dE-fcZ" secondAttribute="leading" id="V6n-Ga-pe4"/>
+                        <constraint firstItem="Fsc-oa-xTa" firstAttribute="leading" secondItem="c4h-a8-kez" secondAttribute="leading" id="ZIp-vg-N3s"/>
+                        <constraint firstAttribute="bottom" secondItem="Fsc-oa-xTa" secondAttribute="bottom" id="esK-NC-Lm4"/>
+                        <constraint firstItem="LZf-3a-hEw" firstAttribute="bottom" secondItem="vlx-dE-fcZ" secondAttribute="bottom" id="g1m-Oi-ro6"/>
+                        <constraint firstAttribute="trailing" secondItem="Fsc-oa-xTa" secondAttribute="trailing" id="ifl-3Z-E2l"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="vlx-dE-fcZ"/>
+                </view>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" id="c7z-kg-Dpa">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="x4b-Ox-kwi">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+                <view contentMode="scaleToFill" id="Qnf-0D-WFh">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="347"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Bue-FX-fxZ">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="313"/>
+                            <color key="backgroundColor" red="0.42260205745697021" green="0.085533015429973602" blue="0.11383751779794693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <string key="text">Sitting in choir
+
+When processing in go in pairs if possible. When you reach the front of the church genuflect towards the altar in pairs and then proceed to your seat and stand when you arrive there while facing the altar. Kneel when the priest genuflects to begin Mass.
+</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bk4-tO-z1O">
+                            <rect key="frame" x="0.0" y="317" width="240" height="30"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="BdW-F6-U81"/>
+                            </constraints>
+                            <state key="normal" title="Done"/>
+                            <connections>
+                                <action selector="doneSitting:" destination="Sv3-gw-aKi" eventType="touchUpInside" id="ZY6-t5-k6t"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Bue-FX-fxZ" firstAttribute="leading" secondItem="xPn-7a-yK5" secondAttribute="leading" id="Ez0-sh-eUE"/>
+                        <constraint firstItem="bk4-tO-z1O" firstAttribute="leading" secondItem="Qnf-0D-WFh" secondAttribute="leading" id="QI6-3d-jOA"/>
+                        <constraint firstItem="Bue-FX-fxZ" firstAttribute="bottom" secondItem="xPn-7a-yK5" secondAttribute="bottom" id="Xae-AP-OIu"/>
+                        <constraint firstAttribute="bottom" secondItem="bk4-tO-z1O" secondAttribute="bottom" id="Yd1-h7-sZm"/>
+                        <constraint firstItem="Bue-FX-fxZ" firstAttribute="trailing" secondItem="xPn-7a-yK5" secondAttribute="trailing" id="csD-MF-xaG"/>
+                        <constraint firstAttribute="trailing" secondItem="bk4-tO-z1O" secondAttribute="trailing" id="gMq-gU-9wF"/>
+                        <constraint firstItem="Bue-FX-fxZ" firstAttribute="top" secondItem="Qnf-0D-WFh" secondAttribute="top" id="ixv-mD-tTO"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="xPn-7a-yK5"/>
+                </view>
+                <exit id="gIN-nS-pJf" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-1321"/>
+        </scene>
+        <!--Low Mass View Controller-->
+        <scene sceneID="dCf-3u-tao">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="snY-YP-IQY" customClass="LowMassViewController" customModule="Latin_Mass_Server_Trainer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PXI-md-1PM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OyR-rF-cQ0">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Low Mass" id="YgJ-CW-lKa">
+                                        <barButtonItem key="rightBarButtonItem" title="Home" id="N9P-G2-POc">
+                                            <connections>
+                                                <segue destination="bRH-bV-tbl" kind="unwind" unwindAction="lowMassUnwindWithUnwindSegue:" id="78T-sA-6q8"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnM-OI-Z2p">
+                                <rect key="frame" x="0.0" y="96" width="414" height="250"/>
+                                <state key="normal" title="Only Server"/>
+                                <connections>
+                                    <action selector="showOnlyServer:" destination="snY-YP-IQY" eventType="touchUpInside" id="1R6-y7-RzN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5v-z6-hJe">
+                                <rect key="frame" x="0.0" y="354" width="414" height="250"/>
+                                <state key="normal" title="Acolyte 1 (two servers)"/>
+                                <connections>
+                                    <action selector="showAcolyte1:" destination="snY-YP-IQY" eventType="touchUpInside" id="4Rs-p5-Veo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfY-kJ-KgH">
+                                <rect key="frame" x="0.0" y="612" width="414" height="250"/>
+                                <state key="normal" title="Acolyte 2 (two servers)"/>
+                                <connections>
+                                    <action selector="showAcolyte2:" destination="snY-YP-IQY" eventType="touchUpInside" id="pMI-JJ-aCU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YES-dR-ahJ" firstAttribute="trailing" secondItem="qnM-OI-Z2p" secondAttribute="trailing" id="1YE-Su-LfT"/>
+                            <constraint firstItem="y5v-z6-hJe" firstAttribute="top" secondItem="qnM-OI-Z2p" secondAttribute="bottom" constant="8" id="4UH-rw-MPO"/>
+                            <constraint firstItem="y5v-z6-hJe" firstAttribute="top" secondItem="qnM-OI-Z2p" secondAttribute="bottom" constant="8" id="4ce-e0-pri"/>
+                            <constraint firstItem="VfY-kJ-KgH" firstAttribute="leading" secondItem="YES-dR-ahJ" secondAttribute="leading" id="DLw-2M-ibK"/>
+                            <constraint firstItem="YES-dR-ahJ" firstAttribute="trailing" secondItem="VfY-kJ-KgH" secondAttribute="trailing" id="MZM-Ta-p1T"/>
+                            <constraint firstItem="VfY-kJ-KgH" firstAttribute="top" secondItem="y5v-z6-hJe" secondAttribute="bottom" constant="8" id="NR4-PA-yiX"/>
+                            <constraint firstItem="qnM-OI-Z2p" firstAttribute="leading" secondItem="YES-dR-ahJ" secondAttribute="leading" id="QVw-5y-Kja"/>
+                            <constraint firstItem="y5v-z6-hJe" firstAttribute="height" secondItem="qnM-OI-Z2p" secondAttribute="height" id="WY9-Ph-ua6"/>
+                            <constraint firstItem="OyR-rF-cQ0" firstAttribute="trailing" secondItem="YES-dR-ahJ" secondAttribute="trailing" id="Wf1-XK-U8S"/>
+                            <constraint firstItem="VfY-kJ-KgH" firstAttribute="top" secondItem="y5v-z6-hJe" secondAttribute="bottom" constant="8" id="Z2F-aZ-waR"/>
+                            <constraint firstItem="OyR-rF-cQ0" firstAttribute="top" secondItem="YES-dR-ahJ" secondAttribute="top" id="but-Nt-H9v"/>
+                            <constraint firstItem="OyR-rF-cQ0" firstAttribute="leading" secondItem="YES-dR-ahJ" secondAttribute="leading" id="eDs-vk-UIi"/>
+                            <constraint firstItem="YES-dR-ahJ" firstAttribute="bottom" secondItem="VfY-kJ-KgH" secondAttribute="bottom" id="jJF-BC-Quc"/>
+                            <constraint firstItem="YES-dR-ahJ" firstAttribute="trailing" secondItem="y5v-z6-hJe" secondAttribute="trailing" id="mPG-Bg-HFx"/>
+                            <constraint firstItem="y5v-z6-hJe" firstAttribute="leading" secondItem="YES-dR-ahJ" secondAttribute="leading" id="s1j-AU-z3v"/>
+                            <constraint firstItem="VfY-kJ-KgH" firstAttribute="height" secondItem="qnM-OI-Z2p" secondAttribute="height" id="uhI-1e-mwY"/>
+                            <constraint firstItem="qnM-OI-Z2p" firstAttribute="top" secondItem="OyR-rF-cQ0" secondAttribute="bottom" constant="8" id="zfn-Mc-1wX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YES-dR-ahJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="acolyte1PopupView" destination="Ypw-Tp-sHk" id="b59-4T-JQo"/>
+                        <outlet property="acolyte2PopupView" destination="xgV-jX-Dfa" id="KjL-00-bXa"/>
+                        <outlet property="blurView" destination="jFR-KH-S8B" id="VOW-QD-pK7"/>
+                        <outlet property="onlyPopupView" destination="FlI-2m-tPz" id="i8d-Uf-qzj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dsf-3t-qab" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="FlI-2m-tPz">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="onlyServer" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sgZ-dr-03U">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olu-18-fuC">
+                            <rect key="frame" x="0.0" y="98" width="240" height="30"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="x58-fo-8Xh"/>
+                            </constraints>
+                            <state key="normal" title="Done"/>
+                            <connections>
+                                <action selector="doneOnly:" destination="snY-YP-IQY" eventType="touchUpInside" id="8NX-ve-Udk"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="olu-18-fuC" secondAttribute="bottom" id="9Ew-Uh-0sf"/>
+                        <constraint firstAttribute="trailing" secondItem="sgZ-dr-03U" secondAttribute="trailing" id="GC6-du-TAf"/>
+                        <constraint firstItem="sgZ-dr-03U" firstAttribute="leading" secondItem="zCz-aR-4oG" secondAttribute="leading" id="J92-p0-TDJ"/>
+                        <constraint firstAttribute="trailing" secondItem="olu-18-fuC" secondAttribute="trailing" id="Kto-dY-rjn"/>
+                        <constraint firstAttribute="bottom" secondItem="sgZ-dr-03U" secondAttribute="bottom" id="gtH-PA-84v"/>
+                        <constraint firstItem="sgZ-dr-03U" firstAttribute="top" secondItem="FlI-2m-tPz" secondAttribute="top" id="utk-ag-x7S"/>
+                        <constraint firstItem="olu-18-fuC" firstAttribute="leading" secondItem="FlI-2m-tPz" secondAttribute="leading" id="zHd-wn-DP7"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="zCz-aR-4oG"/>
+                </view>
+                <view contentMode="scaleToFill" id="Ypw-Tp-sHk">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Acolyte1" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IRK-59-PGW">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="94"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UqQ-5Q-hno">
+                            <rect key="frame" x="0.0" y="98" width="240" height="30"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="VD5-xL-NtQ"/>
+                            </constraints>
+                            <state key="normal" title="Done"/>
+                            <connections>
+                                <action selector="doneAcolyte1:" destination="snY-YP-IQY" eventType="touchUpInside" id="60M-Gf-TBo"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="UqQ-5Q-hno" firstAttribute="leading" secondItem="Ypw-Tp-sHk" secondAttribute="leading" id="0sF-sw-Qlc"/>
+                        <constraint firstAttribute="bottom" secondItem="UqQ-5Q-hno" secondAttribute="bottom" id="921-eb-8SD"/>
+                        <constraint firstItem="IRK-59-PGW" firstAttribute="bottom" secondItem="nta-TO-KmC" secondAttribute="bottom" id="E6L-oa-eY9"/>
+                        <constraint firstItem="IRK-59-PGW" firstAttribute="leading" secondItem="nta-TO-KmC" secondAttribute="leading" id="d2a-WC-Eg6"/>
+                        <constraint firstItem="IRK-59-PGW" firstAttribute="top" secondItem="Ypw-Tp-sHk" secondAttribute="top" id="kSh-X4-n6T"/>
+                        <constraint firstItem="IRK-59-PGW" firstAttribute="trailing" secondItem="nta-TO-KmC" secondAttribute="trailing" id="nUo-Dq-8q4"/>
+                        <constraint firstAttribute="trailing" secondItem="UqQ-5Q-hno" secondAttribute="trailing" id="v2V-CI-YQv"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="nta-TO-KmC"/>
+                </view>
+                <view contentMode="scaleToFill" id="xgV-jX-Dfa">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Acolyte2" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qoQ-aN-vQQ">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAO-yg-cnK">
+                            <rect key="frame" x="0.0" y="98" width="240" height="30"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="qc0-lx-pr5"/>
+                            </constraints>
+                            <state key="normal" title="Done"/>
+                            <connections>
+                                <action selector="doneAcolyte2:" destination="snY-YP-IQY" eventType="touchUpInside" id="zdJ-w7-ta0"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="qoQ-aN-vQQ" firstAttribute="top" secondItem="xgV-jX-Dfa" secondAttribute="top" id="6VX-OS-yMS"/>
+                        <constraint firstAttribute="bottom" secondItem="qoQ-aN-vQQ" secondAttribute="bottom" id="DJB-d0-rDq"/>
+                        <constraint firstAttribute="trailing" secondItem="lAO-yg-cnK" secondAttribute="trailing" id="IXe-sS-LFE"/>
+                        <constraint firstItem="qoQ-aN-vQQ" firstAttribute="leading" secondItem="aFJ-Vc-a8D" secondAttribute="leading" id="PTo-aQ-RsK"/>
+                        <constraint firstAttribute="bottom" secondItem="lAO-yg-cnK" secondAttribute="bottom" id="Q33-cZ-fJN"/>
+                        <constraint firstItem="lAO-yg-cnK" firstAttribute="leading" secondItem="xgV-jX-Dfa" secondAttribute="leading" id="ZJC-q0-ufd"/>
+                        <constraint firstItem="qoQ-aN-vQQ" firstAttribute="trailing" secondItem="aFJ-Vc-a8D" secondAttribute="trailing" id="klg-LY-VCh"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="aFJ-Vc-a8D"/>
+                </view>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" id="jFR-KH-S8B">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Hn7-wR-D5P">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+                <exit id="bRH-bV-tbl" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1019" y="-1320"/>
+        </scene>
+        <!--No Incense View Controller-->
+        <scene sceneID="5l5-uV-LWM">
+            <objects>
+                <viewController id="z6S-2b-P5M" customClass="NoIncenseViewController" customModule="Latin_Mass_Server_Trainer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CBO-iT-n2e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L9D-oD-d8L">
+                                <rect key="frame" x="0.0" y="44" width="414" height="742"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="RD6-Yr-ZeH"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Two Servers With No Incense" id="4wE-M9-Clw">
+                                        <barButtonItem key="rightBarButtonItem" title="Home" id="gxx-G0-qxx"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OO5-nx-IuQ">
+                                <rect key="frame" x="0.0" y="794" width="414" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="bIl-0t-q8W"/>
+                                </constraints>
+                                <state key="normal" title="Acolyte 1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbn-Ts-da5">
+                                <rect key="frame" x="0.0" y="832" width="414" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iyd-Aj-gMu"/>
+                                </constraints>
+                                <state key="normal" title="Thurifer"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="Fbn-Ts-da5" firstAttribute="leading" secondItem="nRi-t4-aXH" secondAttribute="leading" id="6bN-mb-0Ye"/>
+                            <constraint firstItem="nRi-t4-aXH" firstAttribute="bottom" secondItem="Fbn-Ts-da5" secondAttribute="bottom" id="6dc-Sy-GCw"/>
+                            <constraint firstItem="Fbn-Ts-da5" firstAttribute="height" secondItem="OO5-nx-IuQ" secondAttribute="height" id="7kd-wq-cva"/>
+                            <constraint firstItem="OO5-nx-IuQ" firstAttribute="top" secondItem="L9D-oD-d8L" secondAttribute="bottom" constant="8" id="Lpt-l2-gM9"/>
+                            <constraint firstItem="Fbn-Ts-da5" firstAttribute="top" secondItem="OO5-nx-IuQ" secondAttribute="bottom" constant="8" id="PLa-il-dCe"/>
+                            <constraint firstItem="nRi-t4-aXH" firstAttribute="trailing" secondItem="Fbn-Ts-da5" secondAttribute="trailing" id="Uxy-S8-zXl"/>
+                            <constraint firstItem="L9D-oD-d8L" firstAttribute="trailing" secondItem="nRi-t4-aXH" secondAttribute="trailing" id="a0l-7s-m9H"/>
+                            <constraint firstItem="nRi-t4-aXH" firstAttribute="trailing" secondItem="OO5-nx-IuQ" secondAttribute="trailing" id="i4Q-H8-GAa"/>
+                            <constraint firstItem="L9D-oD-d8L" firstAttribute="top" secondItem="nRi-t4-aXH" secondAttribute="top" id="nzN-U6-4gn"/>
+                            <constraint firstItem="L9D-oD-d8L" firstAttribute="leading" secondItem="nRi-t4-aXH" secondAttribute="leading" id="ofk-o2-gov"/>
+                            <constraint firstItem="OO5-nx-IuQ" firstAttribute="leading" secondItem="nRi-t4-aXH" secondAttribute="leading" id="rqT-iq-wfe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nRi-t4-aXH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hCx-ra-LEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1939" y="-1321"/>
+        </scene>
+        <!--Missa Cantata View Controller-->
+        <scene sceneID="Zvq-vG-R8k">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="uCH-T9-y3O" customClass="MissaCantataViewController" customModule="Latin_Mass_Server_Trainer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CIr-xU-yq1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ifp-28-WEy">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Missa Cantata" id="UDi-Sm-9Yp">
+                                        <barButtonItem key="rightBarButtonItem" title="Home" id="uxj-Rq-gXH">
+                                            <connections>
+                                                <segue destination="94N-cP-YjX" kind="unwind" unwindAction="missaCantataUnwindWithUnwindSegue:" id="2Z1-BO-GKf"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9n-Sn-8oe">
+                                <rect key="frame" x="0.0" y="96" width="414" height="185.5"/>
+                                <state key="normal" title="Only Server"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4z-xS-ZJG">
+                                <rect key="frame" x="0.0" y="483" width="414" height="185.5"/>
+                                <state key="normal" title="Two Servers Plus Incense"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z76-3R-cGT">
+                                <rect key="frame" x="0.0" y="676.5" width="414" height="185.5"/>
+                                <state key="normal" title="Three Or More Servers Plus Incense"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaQ-6G-3c1">
+                                <rect key="frame" x="0.0" y="289.5" width="414" height="185.5"/>
+                                <state key="normal" title="Two Or More Servers With No Incense"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="2Sw-aD-m1k" firstAttribute="trailing" secondItem="JaQ-6G-3c1" secondAttribute="trailing" id="2Hk-it-RKC"/>
+                            <constraint firstItem="2Sw-aD-m1k" firstAttribute="trailing" secondItem="G9n-Sn-8oe" secondAttribute="trailing" id="6Cj-SA-140"/>
+                            <constraint firstItem="JaQ-6G-3c1" firstAttribute="top" secondItem="G9n-Sn-8oe" secondAttribute="bottom" constant="8" id="6ef-gX-aP1"/>
+                            <constraint firstItem="Z76-3R-cGT" firstAttribute="top" secondItem="y4z-xS-ZJG" secondAttribute="bottom" constant="8" id="7yy-jP-Xfx"/>
+                            <constraint firstItem="2Sw-aD-m1k" firstAttribute="bottom" secondItem="Z76-3R-cGT" secondAttribute="bottom" id="8OO-sJ-w7D"/>
+                            <constraint firstItem="Z76-3R-cGT" firstAttribute="leading" secondItem="2Sw-aD-m1k" secondAttribute="leading" id="AUh-Ug-Y4b"/>
+                            <constraint firstItem="y4z-xS-ZJG" firstAttribute="top" secondItem="JaQ-6G-3c1" secondAttribute="bottom" constant="8" id="Py9-b0-FTt"/>
+                            <constraint firstItem="ifp-28-WEy" firstAttribute="leading" secondItem="2Sw-aD-m1k" secondAttribute="leading" id="Qmu-ij-9bW"/>
+                            <constraint firstItem="y4z-xS-ZJG" firstAttribute="height" secondItem="G9n-Sn-8oe" secondAttribute="height" id="RSr-yP-8U3"/>
+                            <constraint firstItem="JaQ-6G-3c1" firstAttribute="leading" secondItem="2Sw-aD-m1k" secondAttribute="leading" id="SI8-11-CWK"/>
+                            <constraint firstItem="JaQ-6G-3c1" firstAttribute="top" secondItem="G9n-Sn-8oe" secondAttribute="bottom" constant="8" id="Ti5-lV-ony"/>
+                            <constraint firstItem="ifp-28-WEy" firstAttribute="trailing" secondItem="2Sw-aD-m1k" secondAttribute="trailing" id="XwQ-0i-w51"/>
+                            <constraint firstItem="y4z-xS-ZJG" firstAttribute="leading" secondItem="2Sw-aD-m1k" secondAttribute="leading" id="apv-Qy-3qp"/>
+                            <constraint firstItem="Z76-3R-cGT" firstAttribute="height" secondItem="G9n-Sn-8oe" secondAttribute="height" id="f2k-yg-qpa"/>
+                            <constraint firstItem="2Sw-aD-m1k" firstAttribute="trailing" secondItem="y4z-xS-ZJG" secondAttribute="trailing" id="jhG-5x-oew"/>
+                            <constraint firstItem="2Sw-aD-m1k" firstAttribute="trailing" secondItem="Z76-3R-cGT" secondAttribute="trailing" id="o98-Mq-jNX"/>
+                            <constraint firstItem="Z76-3R-cGT" firstAttribute="top" secondItem="y4z-xS-ZJG" secondAttribute="bottom" constant="8" id="sqM-pK-sCb"/>
+                            <constraint firstItem="G9n-Sn-8oe" firstAttribute="top" secondItem="ifp-28-WEy" secondAttribute="bottom" constant="8" id="ur2-SK-eWe"/>
+                            <constraint firstItem="JaQ-6G-3c1" firstAttribute="height" secondItem="G9n-Sn-8oe" secondAttribute="height" id="w2m-9J-QZv"/>
+                            <constraint firstItem="ifp-28-WEy" firstAttribute="top" secondItem="2Sw-aD-m1k" secondAttribute="top" id="xNZ-TV-qyT"/>
+                            <constraint firstItem="G9n-Sn-8oe" firstAttribute="leading" secondItem="2Sw-aD-m1k" secondAttribute="leading" id="z8G-ci-q8e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2Sw-aD-m1k"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pR4-fy-91n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="94N-cP-YjX" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1019" y="-627"/>
+        </scene>
+        <!--Two Incense View Controller-->
+        <scene sceneID="Zr4-Hk-yaT">
+            <objects>
+                <viewController id="u8G-Sp-Y92" customClass="TwoIncenseViewController" customModule="Latin_Mass_Server_Trainer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dLg-pJ-mTB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WAb-Fq-gcA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Two Servers Plus Incense" id="FxJ-cz-bru">
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="uZ9-M7-Iz9"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="WAb-Fq-gcA" firstAttribute="top" secondItem="l7s-8U-QvD" secondAttribute="top" id="Ycv-NO-zwA"/>
+                            <constraint firstItem="WAb-Fq-gcA" firstAttribute="leading" secondItem="l7s-8U-QvD" secondAttribute="leading" id="q5n-kh-wJR"/>
+                            <constraint firstItem="WAb-Fq-gcA" firstAttribute="trailing" secondItem="l7s-8U-QvD" secondAttribute="trailing" id="sj4-ey-AJl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="l7s-8U-QvD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PPr-5a-haI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1938" y="-627"/>
+        </scene>
+        <!--Three Incense View Controller-->
+        <scene sceneID="ZPI-vK-BaN">
+            <objects>
+                <viewController id="jAp-TO-gze" customClass="ThreeIncenseViewController" customModule="Latin_Mass_Server_Trainer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hvu-hh-X9H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wti-2q-tw1">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Three Servers Plus Incense" id="2lf-cf-LVB">
+                                        <barButtonItem key="rightBarButtonItem" title="Home" id="DZR-If-QaS"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="wti-2q-tw1" firstAttribute="leading" secondItem="Dwu-55-sUq" secondAttribute="leading" id="1Ox-nu-dw9"/>
+                            <constraint firstItem="wti-2q-tw1" firstAttribute="top" secondItem="Dwu-55-sUq" secondAttribute="top" id="FUY-Nc-rZP"/>
+                            <constraint firstItem="wti-2q-tw1" firstAttribute="trailing" secondItem="Dwu-55-sUq" secondAttribute="trailing" id="Xyp-iO-ipJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Dwu-55-sUq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xIm-Os-C53" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1938" y="118"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_1013.jpg" width="1128" height="1241"/>
+        <image name="IMG_1167.jpg" width="2637" height="2637"/>
+    </resources>
+</document>
