@@ -15,11 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func generalKnowledgeUnwind(unwindSegue: UIStoryboardSegue){}
-    @IBAction func lowMassUnwind(unwindSegue: UIStoryboardSegue){}
-    @IBAction func missaCantataUnwind(unwindSegue: UIStoryboardSegue){}
-    @IBAction func solemnMassUnwind(unwindSegue: UIStoryboardSegue){}
-    @IBAction func learnUnwind(unwindSegue: UIStoryboardSegue){}
-    @IBAction func quizUnwind(unwindSegue: UIStoryboardSegue){}
+
+    @IBAction func homeUnwind(unwindSegue: UIStoryboardSegue) {}
 }
 

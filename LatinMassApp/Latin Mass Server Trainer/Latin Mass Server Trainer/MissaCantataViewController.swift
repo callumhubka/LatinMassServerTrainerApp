@@ -10,10 +10,26 @@ import UIKit
 
 class MissaCantataViewController: UIViewController {
 
+    @IBAction func showOnlyServer(_ sender: Any) {
+        animateIn(desiredView: blurView)
+        animateIn(desiredView: onlyPopupView)
+    }
+    
+    @IBAction func doneOnly(_ sender: Any) {
+        animateOut(desiredView: onlyPopupView)
+        animateOut(desiredView: blurView)
+    }
+    
+    @IBOutlet var onlyPopupView: UIView!
+    @IBOutlet var blurView: UIVisualEffectView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        blurView.bounds = self.view.bounds
+        onlyPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
+        
     }
     
 
@@ -40,14 +56,8 @@ func animateOut(desiredView: UIView) {
         desiredView.removeFromSuperview()
     })
 }
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
+    @IBAction func missaCantataUnwind(unwindSegue: UIStoryboardSegue) {}
 
 }

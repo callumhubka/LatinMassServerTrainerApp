@@ -10,14 +10,63 @@ import UIKit
 
 class SolemnMassViewController: UIViewController {
 
+    @IBAction func showMC(_ sender: Any) {
+        animateIn(desiredView: blurView)
+        animateIn(desiredView: mcPopupView)
+    }
+    
+    @IBAction func showAcolyte1(_ sender: Any) {
+        animateIn(desiredView: blurView)
+        animateIn(desiredView: acolyte1PopupView)
+    }
+    
+    @IBAction func showAcolyte2(_ sender: Any) {
+        animateIn(desiredView: blurView)
+        animateIn(desiredView: acolyte2PopupView)
+    }
+    
+    @IBAction func showThurifer(_ sender: Any) {
+        animateIn(desiredView: blurView)
+        animateIn(desiredView: thuriferPopupView)
+    }
+    
+    @IBAction func doneMC(_ sender: Any) {
+        animateOut(desiredView: mcPopupView)
+        animateOut(desiredView: blurView)
+    }
+    
+    @IBAction func doneAcolyte1(_ sender: Any) {
+        animateOut(desiredView: acolyte1PopupView)
+        animateOut(desiredView: blurView)
+    }
+    
+    @IBAction func doneAcolyte2(_ sender: Any) {
+        animateOut(desiredView: acolyte2PopupView)
+        animateOut(desiredView: blurView)
+    }
+    
+    @IBAction func doneThurifer(_ sender: Any) {
+        animateOut(desiredView: thuriferPopupView)
+        animateOut(desiredView: blurView)
+    }
+    
+    @IBOutlet var mcPopupView: UIView!
+    @IBOutlet var acolyte1PopupView: UIView!
+    @IBOutlet var acolyte2PopupView: UIView!
+    @IBOutlet var thuriferPopupView: UIView!
+    @IBOutlet weak var blurView: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
+        blurView.bounds = self.view.bounds
+        mcPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
+        acolyte1PopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
+        acolyte2PopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
+        thuriferPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
     }
     
-
     
 func animateIn(desiredView: UIView) {
     let backgroundView = self.view!
@@ -41,14 +90,5 @@ func animateOut(desiredView: UIView) {
         desiredView.removeFromSuperview()
     })
 }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
