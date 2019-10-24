@@ -19,6 +19,7 @@
 		D3C2D485233F42C500CFBBE3 /* Latin_Mass_Server_TrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D484233F42C500CFBBE3 /* Latin_Mass_Server_TrainerUITests.swift */; };
 		D3C2D493233F43A700CFBBE3 /* IMG_1013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3C2D492233F43A600CFBBE3 /* IMG_1013.jpg */; };
 		D3C2D495233F43C700CFBBE3 /* IMG_1167.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3C2D494233F43C700CFBBE3 /* IMG_1167.jpg */; };
+		D3D8323E2361857800F885E0 /* IMG_2500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3D8323D2361857800F885E0 /* IMG_2500.jpg */; };
 		D3EEF614234C80F6007D4CDA /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EEF613234C80F6007D4CDA /* LearnViewController.swift */; };
 		D3EEF616234C813B007D4CDA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EEF615234C813B007D4CDA /* QuizViewController.swift */; };
 		D3EEF618234C8224007D4CDA /* GeneralKnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EEF617234C8224007D4CDA /* GeneralKnowledgeViewController.swift */; };
@@ -63,6 +64,7 @@
 		D3C2D486233F42C500CFBBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3C2D492233F43A600CFBBE3 /* IMG_1013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1013.jpg; path = ../../../IMG_1013.jpg; sourceTree = "<group>"; };
 		D3C2D494233F43C700CFBBE3 /* IMG_1167.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1167.jpg; path = ../../../LatinMassServerTrainer/IMG_1167.jpg; sourceTree = "<group>"; };
+		D3D8323D2361857800F885E0 /* IMG_2500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_2500.jpg; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/IMG_2500.jpg"; sourceTree = "<group>"; };
 		D3EEF613234C80F6007D4CDA /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		D3EEF615234C813B007D4CDA /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		D3EEF617234C8224007D4CDA /* GeneralKnowledgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralKnowledgeViewController.swift; sourceTree = "<group>"; };
@@ -120,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				D3C2D494233F43C700CFBBE3 /* IMG_1167.jpg */,
-				D3C2D492233F43A600CFBBE3 /* IMG_1013.jpg */,
 				D3EEF613234C80F6007D4CDA /* LearnViewController.swift */,
 				D3EEF615234C813B007D4CDA /* QuizViewController.swift */,
 				D3C2D464233F42B500CFBBE3 /* AppDelegate.swift */,
@@ -133,7 +134,9 @@
 				D31AFE6D2355CCBD003369A0 /* ThreeIncenseViewController.swift */,
 				D31AFE6B2355CCA3003369A0 /* TwoIncenseViewController.swift */,
 				D3EEF61D234C8266007D4CDA /* SolemnMassViewController.swift */,
+				D3C2D492233F43A600CFBBE3 /* IMG_1013.jpg */,
 				D3C2D46B233F42C400CFBBE3 /* Assets.xcassets */,
+				D3D8323D2361857800F885E0 /* IMG_2500.jpg */,
 				D3C2D46D233F42C400CFBBE3 /* LaunchScreen.storyboard */,
 				D3C2D470233F42C400CFBBE3 /* Info.plist */,
 			);
@@ -262,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D8323E2361857800F885E0 /* IMG_2500.jpg in Resources */,
 				D3C2D493233F43A700CFBBE3 /* IMG_1013.jpg in Resources */,
 				D3C2D495233F43C700CFBBE3 /* IMG_1167.jpg in Resources */,
 				D3C2D46F233F42C400CFBBE3 /* LaunchScreen.storyboard in Resources */,

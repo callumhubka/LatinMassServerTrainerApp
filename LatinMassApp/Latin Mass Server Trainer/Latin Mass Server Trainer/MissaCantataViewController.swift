@@ -27,12 +27,11 @@ class MissaCantataViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         blurView.bounds = self.view.bounds
         onlyPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
-        
     }
     
-
     
 func animateIn(desiredView: UIView) {
     let backgroundView = self.view!

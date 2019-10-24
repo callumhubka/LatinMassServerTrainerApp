@@ -19,19 +19,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yx-Mv-Yh9">
-                                <rect key="frame" x="20" y="44" width="374" height="412"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="80"/>
+                                <rect key="frame" x="20" y="44" width="374" height="339"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Learn!" backgroundImage="IMG_1167.jpg">
-                                    <color key="titleColor" red="0.42260205745697021" green="0.085533015429973602" blue="0.11383751779794693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.4204939603805542" green="0.085580222308635712" blue="0.11387301236391068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="MVU-uC-mkW" kind="show" id="Vuc-cl-lwQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlH-3C-g7F">
-                                <rect key="frame" x="20" y="464" width="374" height="412"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="80"/>
+                                <rect key="frame" x="20" y="523" width="374" height="339"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
                                 <state key="normal" title="Quiz!" backgroundImage="IMG_1013.jpg">
                                     <color key="titleColor" red="0.42260205745697021" green="0.085533015429973602" blue="0.11383751779794693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -39,19 +39,32 @@
                                     <segue destination="lfP-kI-XV6" kind="show" id="1KB-2C-d0t"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5h-8t-ocG">
+                                <rect key="frame" x="20" y="383" width="374" height="140"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="lk8-fD-bfr"/>
+                                </constraints>
+                                <mutableString key="text">All information found in this app has been put together by volunteers. Attempts have been made to account for local customs while teaching general practices. While manuals and documents have been consulted by those who have created this app, humility dictates that there are certainly errors or things that could be done better. All errors/constructive feedback pointed out will be taken into account and integrated into the app as time allows. Please send all errors/feedback found to LatinMassServerTrainer@protonmail.com</mutableString>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="QlH-3C-g7F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3Jy-cy-3oX"/>
-                            <constraint firstItem="QlH-3C-g7F" firstAttribute="height" secondItem="5yx-Mv-Yh9" secondAttribute="height" id="5S2-g2-mEc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5yx-Mv-Yh9" secondAttribute="trailing" constant="20" id="Lac-a4-TiX"/>
-                            <constraint firstItem="QlH-3C-g7F" firstAttribute="top" secondItem="5yx-Mv-Yh9" secondAttribute="bottom" constant="8" id="MHi-Lt-aUM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QlH-3C-g7F" secondAttribute="trailing" constant="20" id="P0s-Re-ut3"/>
-                            <constraint firstItem="5yx-Mv-Yh9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PfJ-a5-vw0"/>
-                            <constraint firstItem="QlH-3C-g7F" firstAttribute="top" secondItem="5yx-Mv-Yh9" secondAttribute="bottom" constant="8" id="Xyy-0G-cwl"/>
-                            <constraint firstItem="5yx-Mv-Yh9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Z4p-Ys-fKc"/>
-                            <constraint firstAttribute="bottom" secondItem="QlH-3C-g7F" secondAttribute="bottom" constant="20" id="pJV-A8-sPn"/>
+                            <constraint firstItem="QlH-3C-g7F" firstAttribute="height" secondItem="5yx-Mv-Yh9" secondAttribute="height" id="26p-hI-lcl"/>
+                            <constraint firstItem="5yx-Mv-Yh9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5r1-g1-DxI"/>
+                            <constraint firstAttribute="trailing" secondItem="QlH-3C-g7F" secondAttribute="trailing" constant="20" id="7RL-2U-eMu"/>
+                            <constraint firstItem="QlH-3C-g7F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GU2-7p-X9A"/>
+                            <constraint firstItem="y5h-8t-ocG" firstAttribute="top" secondItem="5yx-Mv-Yh9" secondAttribute="bottom" id="JKx-wS-mJH"/>
+                            <constraint firstItem="y5h-8t-ocG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ku9-yN-yoj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y5h-8t-ocG" secondAttribute="trailing" constant="20" id="chq-Kq-TEk"/>
+                            <constraint firstItem="5yx-Mv-Yh9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ma2-vg-ahZ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="QlH-3C-g7F" secondAttribute="bottom" id="wBN-dj-Uds"/>
+                            <constraint firstItem="QlH-3C-g7F" firstAttribute="top" secondItem="y5h-8t-ocG" secondAttribute="bottom" id="wBU-st-bAa"/>
+                            <constraint firstAttribute="trailing" secondItem="5yx-Mv-Yh9" secondAttribute="trailing" constant="20" id="yNg-dc-fFV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -88,34 +101,50 @@
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHQ-2o-kXX">
                                 <rect key="frame" x="0.0" y="96" width="414" height="185.5"/>
-                                <state key="normal" title="MC (ommitted if only three servers)"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="MC (ommitted if only three servers)">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showMC:" destination="OSp-T9-lmr" eventType="touchUpInside" id="V05-lS-tmm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDW-ma-fd9">
                                 <rect key="frame" x="0.0" y="289.5" width="414" height="185.5"/>
-                                <state key="normal" title="Acolyte 1"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Acolyte 1">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showAcolyte1:" destination="OSp-T9-lmr" eventType="touchUpInside" id="4T1-3j-IFV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfe-L4-wCt">
                                 <rect key="frame" x="0.0" y="483" width="414" height="185.5"/>
-                                <state key="normal" title="Acolyte 2"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Acolyte 2">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showAcolyte2:" destination="OSp-T9-lmr" eventType="touchUpInside" id="RMp-pT-h8q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tJ-D4-yal">
                                 <rect key="frame" x="0.0" y="676.5" width="414" height="185.5"/>
-                                <state key="normal" title="Thurifer"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Thurifer">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showThurifer:" destination="OSp-T9-lmr" eventType="touchUpInside" id="cpg-Tm-ZbR"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jfe-L4-wCt" firstAttribute="leading" secondItem="MtZ-FZ-GDd" secondAttribute="leading" id="0i7-Er-JgQ"/>
                             <constraint firstItem="jfe-L4-wCt" firstAttribute="top" secondItem="RDW-ma-fd9" secondAttribute="bottom" constant="8" id="1AJ-g0-xZ5"/>
@@ -382,8 +411,8 @@
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPC-hu-FOy">
                                 <rect key="frame" x="0.0" y="287.5" width="414" height="183.5"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Low Mass">
                                     <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -394,7 +423,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ng-rz-hM6">
                                 <rect key="frame" x="0.0" y="479" width="414" height="183.5"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Missa Cantata">
                                     <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -404,8 +433,8 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yil-iY-hcd">
                                 <rect key="frame" x="0.0" y="670.5" width="414" height="183.5"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Solemn High Mass">
                                     <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -415,8 +444,8 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPa-b3-fKC">
                                 <rect key="frame" x="0.0" y="96" width="414" height="183.5"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <color key="tintColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="General Knowledge">
                                     <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -498,22 +527,28 @@
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTq-pJ-2SK">
                                 <rect key="frame" x="0.0" y="483" width="414" height="379"/>
-                                <state key="normal" title="Sitting in Choir"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Sitting in Choir">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showSittingInChoir:" destination="Sv3-gw-aKi" eventType="touchUpInside" id="hLU-Hb-l0v"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LM-c5-MNT">
                                 <rect key="frame" x="0.0" y="96" width="414" height="379"/>
-                                <state key="normal" title="General Serving Knowledge">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="General Knowledge">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showGeneralKnowledge:" destination="Sv3-gw-aKi" eventType="touchUpInside" id="G7E-kN-wfz"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="WTq-pJ-2SK" firstAttribute="top" secondItem="4LM-c5-MNT" secondAttribute="bottom" constant="8" id="EoV-68-SVR"/>
                             <constraint firstItem="eAN-HN-ZZE" firstAttribute="top" secondItem="raB-MV-mVz" secondAttribute="top" id="ErZ-BQ-Rd7"/>
@@ -556,20 +591,38 @@
                         <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZf-3a-hEw">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="330"/>
                             <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <mutableString key="text">General knowledge for serving - DRAFT 2 - 
+                            <mutableString key="text">General knowledge for serving - DRAFT 3 - 
 
 Basics:
 
 Whenever you walk across the line from the center of the altar to the back of the Church, always stop and genuflect (kneel) on your right knee towards the Cruficix on the center of the altar. 
 
+Whenever you are not carrying something, you must proceed around the altar at the bottom of the altar steps. When you are carrying something you may ascend or descend the steps diagonally. This rule does not apply to MCs who legitimately exercise free range of movement throughout the sanctuary.
+
+The servers never touch the sacred vessels (Ciborium, Chalice, Monstrance, Priest’s Patten) with their bare hands whether inside or outside of the liturgy.
+
+The Epistle side of the altar is the right side of the altar as it is being faced from the pews (left side as faced by the crucifix).
+The Gospel side of the altar is the left side of the altar as it is being faced from the pews (right side as faced by the crucifix).
+In plano: standing on the floor of the sanctuary as opposed to on the steps.
+If you are standing on the Epistle side of the altar you are standing on the front of the altar on the Epistle side in plano.  If you are standing on the Gospel side of the altar you are standing on the front of the altar on the Gospel side in plano.
+If you are to stand to the side of the altar itself it will be specifically noted.
+During private masses said at side altars, the bells are often omitted.
+
+Set up the altar as the priest has directed you. Light the candles beginning with the inner most candle on the Epistle side proceeding out. After lighting all candles that are to be lit on the Epistle side do in like manner on the Gospel side. Extinguish candles in reverse order.
+
+For a low mass there will be two candles lit.
+For a Missa Cantata there will be two or six candles lit as local custom dictates.
+For Solemn Mass there will be six candles lit.
+
 Unlike in Germanic languages such as English, there are not clear breaks in-between words in Latin. Thus, if a word ends in “s” and the next word begins in “s” the words may flow together. This does not mean one may be lazy in their pronunciation, but this more fluid approach to words does make them flow off of your tongue better. 
 
 There are two kinds of bows:
 Simple bows (referred to from here on as “bows”) are only a bow of the head straight ahead.
-Profound bows are a larger head bow with the shoulders and upper body moving roughly 1 inch forward in the process and always towards the altar cross.
+Large bow larger head bow with the shoulders and upper body moving roughly 1 inch forward in the process and always towards the altar cross.
+Profound bows is a bow from the waist.
 
 “✚” signifies to do the sign of the cross.
-“‡” signifies to strike the breast (left side of chest over your heart) with your hand.
+“‡” signifies to strike the breast (left side of chest over your heart) with your open hand.
 “P” indicates that the priest is to say these prayers.
 “S” indicates that the server is to say these prayers.
 
@@ -600,7 +653,7 @@ S Confíteor Deo omnipoténti, beátæ Maríæ semper Virgini, beáto Michaéli 
 P Misereátur tu omnípotens … ad vitam ætérnam. Amen
 	The bow ends here. Kneel straight up.
 P Indulgéntiam, ✚ absolutiónem … et miséricors Dóminus. Amen.
-P Deus, tu convérsus vivificábis nos.
+P Deus, (make large bow) tu convérsus vivificábis nos.
 S Et plebs tua lætábitur in te.
 P Osténde nobis, Dómine, misericórdiam tuam.
 S Et Salutáre tuum da nobis.
@@ -620,6 +673,7 @@ P Kyrie, eléison.
 S Kyrie, eléison.
 P Kyrie, eléison.
 …
+————————————————————————————add gloria with bows
 	After the Gloria, the priest returns to the altar and says:
 P Dóminus vobíscum.
 S Et cum spíritu tuo.
@@ -638,6 +692,7 @@ S Glória tibi Domine.
 	At the end of the Gospel the server will respond.
 S Laus tibi Christe.
 …
+——————————————————————————————add creed with bows
 P Dóminus vobíscum.
 S Et cum spíritu tuo.
 …
@@ -724,9 +779,9 @@ P Benedíctio ... ✚ … Amen.</mutableString>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Bue-FX-fxZ">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="317"/>
                             <color key="backgroundColor" red="0.42260205745697021" green="0.085533015429973602" blue="0.11383751779794693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <string key="text">Sitting in choir
+                            <string key="text">When processing in go in pairs if possible. When you reach the front of the church genuflect towards the altar in pairs, bow towards each other, and then proceed to your seat and stand when you arrive there while facing the altar. Kneel when the priest genuflects to begin Mass.
 
-When processing in go in pairs if possible. When you reach the front of the church genuflect towards the altar in pairs and then proceed to your seat and stand when you arrive there while facing the altar. Kneel when the priest genuflects to begin Mass.
+At the end of Mass, meet in pairs in a line facing towards the altar and with the priest and servers who were serving closest to the altar. When the priest genuflects, genuflect and then turn and walk out in pairs.
 </string>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -787,27 +842,39 @@ When processing in go in pairs if possible. When you reach the front of the chur
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnM-OI-Z2p">
                                 <rect key="frame" x="0.0" y="96" width="414" height="250"/>
-                                <state key="normal" title="Only Server"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Only Server">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showOnlyServer:" destination="snY-YP-IQY" eventType="touchUpInside" id="1R6-y7-RzN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5v-z6-hJe">
                                 <rect key="frame" x="0.0" y="354" width="414" height="250"/>
-                                <state key="normal" title="Acolyte 1 (two servers)"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Acolyte 1 (two servers)">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showAcolyte1:" destination="snY-YP-IQY" eventType="touchUpInside" id="4Rs-p5-Veo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfY-kJ-KgH">
                                 <rect key="frame" x="0.0" y="612" width="414" height="250"/>
-                                <state key="normal" title="Acolyte 2 (two servers)"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Acolyte 2 (two servers)">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showAcolyte2:" destination="snY-YP-IQY" eventType="touchUpInside" id="pMI-JJ-aCU"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="YES-dR-ahJ" firstAttribute="trailing" secondItem="qnM-OI-Z2p" secondAttribute="trailing" id="1YE-Su-LfT"/>
                             <constraint firstItem="y5v-z6-hJe" firstAttribute="top" secondItem="qnM-OI-Z2p" secondAttribute="bottom" constant="8" id="4UH-rw-MPO"/>
@@ -841,9 +908,71 @@ When processing in go in pairs if possible. When you reach the front of the chur
                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="onlyServer" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sgZ-dr-03U">
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sgZ-dr-03U">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <mutableString key="text">Only server at low Mass DRAFT 1
+
+Say the prayers as noted in the general knowledge section.
+
+After the priest stands erect and ascends the altar, rise and move to the edge of the altar step so that your shoulder is aligned with the Gospel side of the altar and then kneel again at the corner of the altar.
+
+At the end of the Epistle rise and go to the center of the altar, genuflect, continue to the Epistle side of the altar proceeding to the side of the altar (making a square corner and not ascending the steps). Once you are at the side of the altar, turn towards the altar, ascend the altar steps, bow, pick up the missal, bow to the crucifix, and descend diagonally to the center of the altar steps holding the missal. At the bottom of the steps in the center of the altar, genuflect towards the altar, and ascend the steps diagonally to the Gospel side of the altar and set down the missal. After settting down the missal, descend the altar steps to the Gospel side and remain there, facing the priest. When the Gospel begins, bow towards the priest when he says the Holy Name (or if the Holy Name is late in the Gospel or not in the Gospel at all, after the priest has read a good portion of the Gospel) and then proceed to the Epistle side of the altar, genuflecting in the center of the altar as always and stand at the same angle as the priest (towards the Gospel side of the altar). 
+
+If there is a homily, meet the priest at the center of the altar, genuflect with him, and proceed to your chair. After the homily, meet the priest at the center of the altar, genuflect, and return to your place at the Epistle side of the altar and face the altar.
+
+If there is no homily, at the end of the Gospel turn to directly face the altar and stay standing.
+
+After the creed, where is it customary ring the bell at the end of the priest reading the Offeratory, alternatively where it is customary ascend the altar steps and take the chalice veil from the priest and fold it in the manner that the priest has directed you to prior to Mass.
+
+Then proceed to the credence table and take the tops off of the cruets (vessels that hold the wine and water) and pick them up with the wine cruet in the right hand and the water cruet in the left hand. The server does not hold the cruets by the handle but holds them by the base of the cruet with the handles facing out for the priest to grab.
+
+Proceed to the Epistle side of the altar and stand there in plano. When the priest turns to you for you to give him the cruets, bow and ascend the first step and hand the wine cruet to the priest after having kissed the handle of the cruet and place the water cruet in the right hand (always hand things from the right hand and receive in the left hand) and be prepared for the priest to hand you the wine cruet and after receiving the wine cruet back kiss the handle again. Immediately repeat this process with the water cruet.
+
+Return the cruets to the credence table and return to Epistle side of the altar with the the towel over your left forearm, the dish in your left hand, and holding the water cruet in your rigth hand. When the priest turns to you, bow and ascend to the first step and pour the water over his index fingers and thumbs into the dish. After he has placed the towel back on your forearm, return these items to the credence table and arrange them in an orderly fashion.
+
+Return to the Epistle side of the altar and knee. Immediately after you arrive the priest will say “Oráte fratres” and you will proceed to say the Sucípiat.
+
+Ring the bells three times at Sanctus. 
+
+Ring the bells once at the Hanc Igitur
+
+If possible set the bells next to the priest before moving, if not possible carry them while being careful to not let them ring.
+
+Ascend the steps and kneel behind and to the right of the priest on the top of the steps and place the bells to your right. At both the consecration of the bread and the wine according to local custom:
+	Ring the bells once at both the genuflection before and after the elevation and thrice during the elevation. With your left hand grab the base of the priests chasuble as he rises from his genuflection and raise it during the elevation roughly six inches or raise it eight inches for gothic, semi-gothic, or conical chasubles with those chasubles being grabbed from the right side at waist height.
+
+Or:
+	Ring the bells thrice during the elevation and with your left hand grab the base of the priests chasuble as he rises from his genuflection and and raise it during the elevation roughly six inches or raise it eight inches for gothic, semi-gothic, or conical chasubles with those chasubles being grabbed from the right side at waist height.
+
+After the consecration return, along with the bells, to the Epistle side of the altar and kneel.
+
+Ring the bells each time the priest says “Agnus Dei”
+
+Ring the bells each time the priest says “Dómine non sum Dígnus”
+
+Make a profound bow when he consumes the precious body and then get the patten from the credence table if others will be receiving communion and return to your place. After he has received the precious blood, make a profound bow and say the “second confiteor” and kneel erect when he begins “Indulgentium.” 
+
+Ascend the altar steps and kneel to receive communion, holding the patern under your chin to catch any particles that might drop.
+
+Stand and lead the priest to where people will be receiving communion beginning from the left (from the perspective of the congregation). Hold the patten while any other people receive communion so that no particles drop on the ground from the consecrated host. When walking place your other hand in front of the paten to keep particles from being blown off of the paten by the air from your movements and always ensure that it has the same side facing straight up so no particles fall off of it. After the last person has received communion hand the paten to the priest.
+
+Proceed to the Epistle side and kneel while the priest places the ciborium into the tabernacle.
+
+Proceed to the credence table and fetch the wine and wait on the side of the Epistle side of the altar and wait in plano. When he turns to you bow and ascend to the priest and pour the wine into the chalice without letting the cruet touch the chalice. If the priest is standing on the Epistle side, only ascend the first step.
+
+Return to the credence table carrying both the cruet and the paten. Return to the side of the Epistle side of the altar with both cruets now and wait in plano. When the priest turns to you, ascend the first step and pour the wine over his fingers into the chalice or ciborium, and then the water in the same manner. 
+
+If the priest chooses to do a wet purification of the ciborium, follow the priest’s instructions that he gave you prior to Mass, remembering to always follow the guidelines for handing cruets to the priest as outlined earlier.
+
+Return the cruets to the credence table. Go to the center of the altar, genuflect at the center, proceed to the side of the Gospel side of the altar and ascend the steps at the side to pick up the Missal. Take the missal and descend the steps diagonally to the center of the altar, genuflect, and ascend diagonally to the Epistle side and place the Missal facing the congregation. Then take the chalice veil and proceed in similar manner to the Gospel side and either place it on the altar or hand it to the priest as local custom dictates. Then descend the side steps of the altar on the Gospel side and proceed, making a squared corner, to the front of the Gospel side of the altar and kneel.
+
+Rise for the last Gospel and return to the Epistle side, genuflecting at the center of the altar. If there is no altar card, return the missal to the Gospel side in the manner that you moved it to the Epistle side earlier.
+
+After the last gospel kneel at the center of the altar for the Leonine prayers.
+
+Rise as the priest ascends the altar get the biretta and hand him the biretta after the genuflection with the center fin facing yourself. Proceed to the sacristy.</mutableString>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                         </textView>
@@ -980,27 +1109,39 @@ When processing in go in pairs if possible. When you reach the front of the chur
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ya5-oa-BcN">
                                 <rect key="frame" x="0.0" y="354" width="414" height="250"/>
-                                <state key="normal" title="Acolyte 1"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Acolyte 1">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showAcolyte1:" destination="z6S-2b-P5M" eventType="touchUpInside" id="wCR-rJ-p63"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yq0-hg-1bx">
                                 <rect key="frame" x="0.0" y="612" width="414" height="250"/>
-                                <state key="normal" title="Acolyte 2"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Acolyte 2">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showAcolyte2:" destination="z6S-2b-P5M" eventType="touchUpInside" id="g7x-Hx-4c3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tX3-n4-pM3">
                                 <rect key="frame" x="0.0" y="96" width="414" height="250"/>
-                                <state key="normal" title="MC (ommitted if only two servers)"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="MC (ommitted if only two servers)">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showMC:" destination="z6S-2b-P5M" eventType="touchUpInside" id="DGG-VM-Bhv"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="tX3-n4-pM3" firstAttribute="top" secondItem="E3D-cH-NyX" secondAttribute="bottom" constant="8" id="5rS-Kp-TfG"/>
                             <constraint firstItem="nRi-t4-aXH" firstAttribute="trailing" secondItem="tX3-n4-pM3" secondAttribute="trailing" id="97w-uk-ZJI"/>
@@ -1171,34 +1312,50 @@ When processing in go in pairs if possible. When you reach the front of the chur
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9n-Sn-8oe">
                                 <rect key="frame" x="0.0" y="96" width="414" height="185.5"/>
-                                <state key="normal" title="Only Server"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Only Server">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showOnlyServer:" destination="uCH-T9-y3O" eventType="touchUpInside" id="dZz-RQ-g5l"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4z-xS-ZJG">
                                 <rect key="frame" x="0.0" y="483" width="414" height="185.5"/>
-                                <state key="normal" title="Two Servers Plus Incense"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Two Servers Plus Incense">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="u8G-Sp-Y92" kind="show" id="Yqn-cd-7DW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z76-3R-cGT">
                                 <rect key="frame" x="0.0" y="676.5" width="414" height="185.5"/>
-                                <state key="normal" title="Three Or More Servers Plus Incense"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Three Or More Servers Plus Incense">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="jAp-TO-gze" kind="show" id="zgE-mQ-fAz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaQ-6G-3c1">
                                 <rect key="frame" x="0.0" y="289.5" width="414" height="185.5"/>
-                                <state key="normal" title="Two Or More Servers With No Incense"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Two Or More Servers With No Incense">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="z6S-2b-P5M" kind="show" id="VQq-f5-Wud"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="2Sw-aD-m1k" firstAttribute="trailing" secondItem="JaQ-6G-3c1" secondAttribute="trailing" id="2Hk-it-RKC"/>
                             <constraint firstItem="2Sw-aD-m1k" firstAttribute="trailing" secondItem="G9n-Sn-8oe" secondAttribute="trailing" id="6Cj-SA-140"/>
@@ -1305,20 +1462,28 @@ When processing in go in pairs if possible. When you reach the front of the chur
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sK-Ll-azc">
                                 <rect key="frame" x="0.0" y="96" width="414" height="379"/>
-                                <state key="normal" title="Acolyte 1"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Acolyte 1">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showAcolyte1:" destination="u8G-Sp-Y92" eventType="touchUpInside" id="L02-bK-IDY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZi-L5-opA">
                                 <rect key="frame" x="0.0" y="483" width="414" height="379"/>
-                                <state key="normal" title="Thurifer"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Thurifer">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showThurifer:" destination="u8G-Sp-Y92" eventType="touchUpInside" id="pC3-vr-XGf"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="xZi-L5-opA" firstAttribute="height" secondItem="0sK-Ll-azc" secondAttribute="height" id="60S-tg-EdH"/>
                             <constraint firstItem="0sK-Ll-azc" firstAttribute="leading" secondItem="l7s-8U-QvD" secondAttribute="leading" id="LZc-9m-eYU"/>
@@ -1450,34 +1615,50 @@ When processing in go in pairs if possible. When you reach the front of the chur
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jc2-ND-o70">
                                 <rect key="frame" x="0.0" y="289.5" width="414" height="185.5"/>
-                                <state key="normal" title="Acolyte 1"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Acolyte 1">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showAcolyte1:" destination="jAp-TO-gze" eventType="touchUpInside" id="e9S-y5-QYN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HnX-A6-Q5Y">
                                 <rect key="frame" x="0.0" y="483" width="414" height="185.5"/>
-                                <state key="normal" title="Acolyte 2"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Acolyte 2">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showAcolyte2:" destination="jAp-TO-gze" eventType="touchUpInside" id="2OO-Jn-zHP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkq-uY-5en">
                                 <rect key="frame" x="0.0" y="676.5" width="414" height="185.5"/>
-                                <state key="normal" title="Thurifer"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Thurifer">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showThurifer:" destination="jAp-TO-gze" eventType="touchUpInside" id="Vva-9V-EIB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JzM-JB-Xts">
                                 <rect key="frame" x="0.0" y="96" width="414" height="185.5"/>
-                                <state key="normal" title="MC (ommitted if only three servers)"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="MC (ommitted if only three servers)">
+                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showMC:" destination="jAp-TO-gze" eventType="touchUpInside" id="eK2-lG-9ZL"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wti-2q-tw1" firstAttribute="leading" secondItem="Dwu-55-sUq" secondAttribute="leading" id="1Ox-nu-dw9"/>
                             <constraint firstItem="JzM-JB-Xts" firstAttribute="leading" secondItem="Dwu-55-sUq" secondAttribute="leading" id="1ia-9k-MD0"/>

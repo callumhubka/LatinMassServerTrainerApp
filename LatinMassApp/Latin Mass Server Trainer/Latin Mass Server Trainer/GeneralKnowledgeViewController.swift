@@ -31,9 +31,7 @@ class GeneralKnowledgeViewController: UIViewController {
     }
     
     @IBOutlet var generalPopupView: UIView!
-    
     @IBOutlet var sittingPopupView: UIView!
-    
     @IBOutlet var blurView: UIVisualEffectView!
     
     
@@ -45,6 +43,7 @@ class GeneralKnowledgeViewController: UIViewController {
         generalPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
         sittingPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
     }
+    
     
 func animateIn(desiredView: UIView) {
     let backgroundView = self.view!

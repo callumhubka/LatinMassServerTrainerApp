@@ -49,6 +49,7 @@ class NoIncenseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         blurView.bounds = self.view.bounds
         mcPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
         acolyte1PopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
@@ -78,5 +79,6 @@ func animateOut(desiredView: UIView) {
         desiredView.removeFromSuperview()
     })
 }
+    
     
 }
