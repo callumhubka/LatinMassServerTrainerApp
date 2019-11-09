@@ -10,13 +10,15 @@ import UIKit
 
 class LearnViewController: UIViewController {
 
+    //all buttons for this page controlled via view controller rather than programatically
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
     }
     
-    
+    //unwind funcion to go back to this page
 @IBAction func LearnUnwind(unwindSegue: UIStoryboardSegue) {
     }
     

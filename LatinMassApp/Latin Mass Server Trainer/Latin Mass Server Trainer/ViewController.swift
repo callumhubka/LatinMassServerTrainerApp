@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //all buttons for this page controlled via view controller rather than programmatically
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-
+    //unwind segue called by all other pages to go to home page
     @IBAction func homeUnwind(unwindSegue: UIStoryboardSegue) {
     }
 }
