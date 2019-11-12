@@ -11,23 +11,20 @@ import UIKit
 class GeneralKnowledgeViewController: UIViewController {
 
     //buttons triggering blurView and then respective popups
-    
     @IBAction func showGeneralKnowledge(_ sender: Any) {
         animateIn(desiredView: blurView)
         animateIn(desiredView: generalPopupView)
     }
-    
     @IBAction func showSittingInChoir(_ sender: Any) {
         animateIn(desiredView: blurView)
         animateIn(desiredView: sittingPopupView)
     }
-    //buttons dismissing respective popups and blur view
     
+    //buttons dismissing respective popups and blur view
     @IBAction func doneGeneral(_ sender: Any) {
         animateOut(desiredView: generalPopupView)
         animateOut(desiredView: blurView)
     }
-    
     @IBAction func doneSitting(_ sender: Any) {
         animateOut(desiredView: sittingPopupView)
         animateOut(desiredView: blurView)
@@ -37,7 +34,8 @@ class GeneralKnowledgeViewController: UIViewController {
     @IBOutlet var generalPopupView: UIView!
     @IBOutlet var sittingPopupView: UIView!
     @IBOutlet var blurView: UIVisualEffectView!
-    //adding connection so image can be added
+    
+    //connection to text view so image can be added programmatically
     @IBOutlet var generalTextView: UITextView!
     
     override func viewDidLoad() {
@@ -57,9 +55,9 @@ There are numerous local variations for serving different Masses. While this is 
 
         // create our NSTextAttachment
         let image1Attachment = NSTextAttachment()
-        image1Attachment.image = UIImage(named: "Diagram.jpg")
+        image1Attachment.image = UIImage(named: "BigAltar.jpg")
         
-        image1Attachment.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: (self.view.bounds.width * 0.9) * (746/1204))
+        image1Attachment.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: (self.view.bounds.width * 0.9) * (442/577))
         
         // wrap the attachment in its own attributed string so we can append it
         let image1String = NSAttributedString(attachment: image1Attachment)
@@ -246,24 +244,24 @@ P Procit.
 S Per ómnibus et síngulis.
 P Benedíctio ... ✚ … Amen.
 """))
-        
+        //full set of text that will appear in generalPopup
         generalTextView.attributedText = fullString
+        generalTextView.font = UIFont(name: "Papyrus", size: 18)
         
-        
-        
-        //sets blurview to be entire page
+        //sets blurview to be entire page when called for popups
         blurView.bounds = self.view.bounds
         //sets sizes of popups
         generalPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
         sittingPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
     }
     
-//function that manages animateIn
+//function that manages animateIn for popups
 func animateIn(desiredView: UIView) {
     let backgroundView = self.view!
     
     backgroundView.addSubview(desiredView)
     
+    //starts larger and invisible and fades in while shrinking to scale
     desiredView.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
     desiredView.alpha = 0
     desiredView.center = backgroundView.center
@@ -273,7 +271,7 @@ func animateIn(desiredView: UIView) {
         desiredView.alpha = 1
     })
 }
-//function that manages animateOut
+//function that manages animateOut for popups
 func animateOut(desiredView: UIView) {
     UIView.animate(withDuration: 0.3, animations: { desiredView.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
         desiredView.alpha = 0

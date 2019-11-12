@@ -9,25 +9,6 @@
 /* Begin PBXBuildFile section */
 		D31AFE6A2355CC7E003369A0 /* NoIncenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31AFE692355CC7E003369A0 /* NoIncenseViewController.swift */; };
 		D31AFE6E2355CCBD003369A0 /* ThreeIncenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31AFE6D2355CCBD003369A0 /* ThreeIncenseViewController.swift */; };
-		D3B189D92371866B00C289A9 /* IMG_1167.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3B189DB2371866B00C289A9 /* IMG_1167.jpg */; };
-		D3B189DF2371867E00C289A9 /* IMG_2500-20.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B189E12371867E00C289A9 /* IMG_2500-20.png */; };
-		D3B189E22371868100C289A9 /* IMG_2500-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B189E42371868100C289A9 /* IMG_2500-20@2x.png */; };
-		D3B189E52371868500C289A9 /* IMG_2500-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B189E72371868500C289A9 /* IMG_2500-20@3x.png */; };
-		D3B189E82371868900C289A9 /* IMG_2500-29.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B189EA2371868900C289A9 /* IMG_2500-29.png */; };
-		D3B189EB2371869400C289A9 /* IMG_2500-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B189ED2371869400C289A9 /* IMG_2500-29@2x.png */; };
-		D3B189EE2371869800C289A9 /* IMG_2500-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B189F02371869800C289A9 /* IMG_2500-29@3x.png */; };
-		D3B189F12371869C00C289A9 /* IMG_2500-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B189F32371869C00C289A9 /* IMG_2500-40@2x.png */; };
-		D3B189F4237186A000C289A9 /* IMG_2500-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B189F6237186A000C289A9 /* IMG_2500-40.png */; };
-		D3B189F7237186A500C289A9 /* IMG_2500-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B189F9237186A500C289A9 /* IMG_2500-40@3x.png */; };
-		D3B189FA237186A800C289A9 /* IMG_2500-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B189FC237186A800C289A9 /* IMG_2500-60@2x.png */; };
-		D3B189FD237186AD00C289A9 /* IMG_2500-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B189FF237186AD00C289A9 /* IMG_2500-60@3x.png */; };
-		D3B18A00237186B000C289A9 /* IMG_2500-76.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B18A02237186B000C289A9 /* IMG_2500-76.png */; };
-		D3B18A03237186B400C289A9 /* IMG_2500-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B18A05237186B400C289A9 /* IMG_2500-76@2x.png */; };
-		D3B18A06237186B800C289A9 /* IMG_2500-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B18A08237186B800C289A9 /* IMG_2500-83.5@2x.png */; };
-		D3B18A09237186BC00C289A9 /* IMG_2500-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B18A0B237186BC00C289A9 /* IMG_2500-1024.png */; };
-		D3B18A0C237186C200C289A9 /* IMG_2500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3B18A0E237186C200C289A9 /* IMG_2500.jpg */; };
-		D3B18A112376C12A00C289A9 /* Diagram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3B18A132376C12A00C289A9 /* Diagram.jpg */; };
-		D3B18A162376C33400C289A9 /* IMG_1013.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B18A182376C33400C289A9 /* IMG_1013.png */; };
 		D3C2D465233F42B500CFBBE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D464233F42B500CFBBE3 /* AppDelegate.swift */; };
 		D3C2D467233F42B500CFBBE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D466233F42B500CFBBE3 /* ViewController.swift */; };
 		D3C2D46A233F42B500CFBBE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C2D468233F42B500CFBBE3 /* Main.storyboard */; };
@@ -62,25 +43,6 @@
 /* Begin PBXFileReference section */
 		D31AFE692355CC7E003369A0 /* NoIncenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIncenseViewController.swift; sourceTree = "<group>"; };
 		D31AFE6D2355CCBD003369A0 /* ThreeIncenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeIncenseViewController.swift; sourceTree = "<group>"; };
-		D3B189DA2371866B00C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/IMG_1167.jpg; sourceTree = "<group>"; };
-		D3B189E02371867E00C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-20.png"; sourceTree = "<group>"; };
-		D3B189E32371868100C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-20@2x.png"; sourceTree = "<group>"; };
-		D3B189E62371868500C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-20@3x.png"; sourceTree = "<group>"; };
-		D3B189E92371868900C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-29.png"; sourceTree = "<group>"; };
-		D3B189EC2371869400C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-29@2x.png"; sourceTree = "<group>"; };
-		D3B189EF2371869800C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-29@3x.png"; sourceTree = "<group>"; };
-		D3B189F22371869C00C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-40@2x.png"; sourceTree = "<group>"; };
-		D3B189F5237186A000C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-40.png"; sourceTree = "<group>"; };
-		D3B189F8237186A500C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-40@3x.png"; sourceTree = "<group>"; };
-		D3B189FB237186A800C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-60@2x.png"; sourceTree = "<group>"; };
-		D3B189FE237186AD00C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-60@3x.png"; sourceTree = "<group>"; };
-		D3B18A01237186B000C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-76.png"; sourceTree = "<group>"; };
-		D3B18A04237186B400C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-76@2x.png"; sourceTree = "<group>"; };
-		D3B18A07237186B800C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-83.5@2x.png"; sourceTree = "<group>"; };
-		D3B18A0A237186BC00C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/IMG_2500-1024.png"; sourceTree = "<group>"; };
-		D3B18A0D237186C200C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/IMG_2500.jpg; sourceTree = "<group>"; };
-		D3B18A122376C12A00C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/Diagram.jpg; sourceTree = "<group>"; };
-		D3B18A172376C33400C289A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/IMG_1013.png; sourceTree = "<group>"; };
 		D3C2D461233F42B400CFBBE3 /* Latin Mass Server Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Latin Mass Server Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C2D464233F42B500CFBBE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C2D466233F42B500CFBBE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,7 +111,6 @@
 		D3C2D463233F42B400CFBBE3 /* Latin Mass Server Trainer */ = {
 			isa = PBXGroup;
 			children = (
-				D3B189DB2371866B00C289A9 /* IMG_1167.jpg */,
 				D3EEF613234C80F6007D4CDA /* LearnViewController.swift */,
 				D3EEF615234C813B007D4CDA /* QuizViewController.swift */,
 				D3C2D464233F42B500CFBBE3 /* AppDelegate.swift */,
@@ -163,24 +124,6 @@
 				D3C2D46B233F42C400CFBBE3 /* Assets.xcassets */,
 				D3C2D46D233F42C400CFBBE3 /* LaunchScreen.storyboard */,
 				D3C2D470233F42C400CFBBE3 /* Info.plist */,
-				D3B18A132376C12A00C289A9 /* Diagram.jpg */,
-				D3B189E12371867E00C289A9 /* IMG_2500-20.png */,
-				D3B18A182376C33400C289A9 /* IMG_1013.png */,
-				D3B189E42371868100C289A9 /* IMG_2500-20@2x.png */,
-				D3B189E72371868500C289A9 /* IMG_2500-20@3x.png */,
-				D3B189EA2371868900C289A9 /* IMG_2500-29.png */,
-				D3B189ED2371869400C289A9 /* IMG_2500-29@2x.png */,
-				D3B189F02371869800C289A9 /* IMG_2500-29@3x.png */,
-				D3B189F6237186A000C289A9 /* IMG_2500-40.png */,
-				D3B189F32371869C00C289A9 /* IMG_2500-40@2x.png */,
-				D3B189F9237186A500C289A9 /* IMG_2500-40@3x.png */,
-				D3B189FC237186A800C289A9 /* IMG_2500-60@2x.png */,
-				D3B189FF237186AD00C289A9 /* IMG_2500-60@3x.png */,
-				D3B18A02237186B000C289A9 /* IMG_2500-76.png */,
-				D3B18A05237186B400C289A9 /* IMG_2500-76@2x.png */,
-				D3B18A08237186B800C289A9 /* IMG_2500-83.5@2x.png */,
-				D3B18A0B237186BC00C289A9 /* IMG_2500-1024.png */,
-				D3B18A0E237186C200C289A9 /* IMG_2500.jpg */,
 			);
 			path = "Latin Mass Server Trainer";
 			sourceTree = "<group>";
@@ -307,28 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3B18A06237186B800C289A9 /* IMG_2500-83.5@2x.png in Resources */,
-				D3B18A0C237186C200C289A9 /* IMG_2500.jpg in Resources */,
-				D3B189E52371868500C289A9 /* IMG_2500-20@3x.png in Resources */,
-				D3B18A112376C12A00C289A9 /* Diagram.jpg in Resources */,
-				D3B18A09237186BC00C289A9 /* IMG_2500-1024.png in Resources */,
-				D3B18A00237186B000C289A9 /* IMG_2500-76.png in Resources */,
-				D3B189FD237186AD00C289A9 /* IMG_2500-60@3x.png in Resources */,
-				D3B189E22371868100C289A9 /* IMG_2500-20@2x.png in Resources */,
-				D3B18A162376C33400C289A9 /* IMG_1013.png in Resources */,
-				D3B189F12371869C00C289A9 /* IMG_2500-40@2x.png in Resources */,
-				D3B189EE2371869800C289A9 /* IMG_2500-29@3x.png in Resources */,
-				D3B189DF2371867E00C289A9 /* IMG_2500-20.png in Resources */,
-				D3B18A03237186B400C289A9 /* IMG_2500-76@2x.png in Resources */,
-				D3B189D92371866B00C289A9 /* IMG_1167.jpg in Resources */,
-				D3B189EB2371869400C289A9 /* IMG_2500-29@2x.png in Resources */,
 				D3C2D46F233F42C400CFBBE3 /* LaunchScreen.storyboard in Resources */,
-				D3B189FA237186A800C289A9 /* IMG_2500-60@2x.png in Resources */,
-				D3B189F4237186A000C289A9 /* IMG_2500-40.png in Resources */,
 				D3C2D46C233F42C400CFBBE3 /* Assets.xcassets in Resources */,
-				D3B189E82371868900C289A9 /* IMG_2500-29.png in Resources */,
 				D3C2D46A233F42B500CFBBE3 /* Main.storyboard in Resources */,
-				D3B189F7237186A500C289A9 /* IMG_2500-40@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,175 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D3B189DB2371866B00C289A9 /* IMG_1167.jpg */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189DA2371866B00C289A9 /* Base */,
-			);
-			name = IMG_1167.jpg;
-			path = ../../../LatinMassServerTrainer;
-			sourceTree = "<group>";
-		};
-		D3B189E12371867E00C289A9 /* IMG_2500-20.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189E02371867E00C289A9 /* Base */,
-			);
-			name = "IMG_2500-20.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B189E42371868100C289A9 /* IMG_2500-20@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189E32371868100C289A9 /* Base */,
-			);
-			name = "IMG_2500-20@2x.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B189E72371868500C289A9 /* IMG_2500-20@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189E62371868500C289A9 /* Base */,
-			);
-			name = "IMG_2500-20@3x.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B189EA2371868900C289A9 /* IMG_2500-29.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189E92371868900C289A9 /* Base */,
-			);
-			name = "IMG_2500-29.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B189ED2371869400C289A9 /* IMG_2500-29@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189EC2371869400C289A9 /* Base */,
-			);
-			name = "IMG_2500-29@2x.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B189F02371869800C289A9 /* IMG_2500-29@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189EF2371869800C289A9 /* Base */,
-			);
-			name = "IMG_2500-29@3x.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B189F32371869C00C289A9 /* IMG_2500-40@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189F22371869C00C289A9 /* Base */,
-			);
-			name = "IMG_2500-40@2x.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B189F6237186A000C289A9 /* IMG_2500-40.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189F5237186A000C289A9 /* Base */,
-			);
-			name = "IMG_2500-40.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B189F9237186A500C289A9 /* IMG_2500-40@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189F8237186A500C289A9 /* Base */,
-			);
-			name = "IMG_2500-40@3x.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B189FC237186A800C289A9 /* IMG_2500-60@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189FB237186A800C289A9 /* Base */,
-			);
-			name = "IMG_2500-60@2x.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B189FF237186AD00C289A9 /* IMG_2500-60@3x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B189FE237186AD00C289A9 /* Base */,
-			);
-			name = "IMG_2500-60@3x.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B18A02237186B000C289A9 /* IMG_2500-76.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B18A01237186B000C289A9 /* Base */,
-			);
-			name = "IMG_2500-76.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B18A05237186B400C289A9 /* IMG_2500-76@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B18A04237186B400C289A9 /* Base */,
-			);
-			name = "IMG_2500-76@2x.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B18A08237186B800C289A9 /* IMG_2500-83.5@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B18A07237186B800C289A9 /* Base */,
-			);
-			name = "IMG_2500-83.5@2x.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B18A0B237186BC00C289A9 /* IMG_2500-1024.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B18A0A237186BC00C289A9 /* Base */,
-			);
-			name = "IMG_2500-1024.png";
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset";
-			sourceTree = "<group>";
-		};
-		D3B18A0E237186C200C289A9 /* IMG_2500.jpg */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B18A0D237186C200C289A9 /* Base */,
-			);
-			name = IMG_2500.jpg;
-			path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013";
-			sourceTree = "<group>";
-		};
-		D3B18A132376C12A00C289A9 /* Diagram.jpg */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B18A122376C12A00C289A9 /* Base */,
-			);
-			name = Diagram.jpg;
-			sourceTree = "<group>";
-		};
-		D3B18A182376C33400C289A9 /* IMG_1013.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3B18A172376C33400C289A9 /* Base */,
-			);
-			name = IMG_1013.png;
-			sourceTree = "<group>";
-		};
 		D3C2D468233F42B500CFBBE3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
