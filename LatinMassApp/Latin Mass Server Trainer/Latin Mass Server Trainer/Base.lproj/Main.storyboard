@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yx-Mv-Yh9">
-                                <rect key="frame" x="20" y="44" width="374" height="327"/>
+                                <rect key="frame" x="20" y="44" width="374" height="337"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Learn!" backgroundImage="IMG_1167">
@@ -28,7 +28,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlH-3C-g7F">
-                                <rect key="frame" x="20" y="527" width="374" height="327"/>
+                                <rect key="frame" x="20" y="517" width="374" height="337"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
                                 <state key="normal" title="Quiz!" backgroundImage="IMG_1013">
                                     <color key="titleColor" red="0.42260205745697021" green="0.085533015429973602" blue="0.11383751779794693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -38,12 +38,12 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5h-8t-ocG">
-                                <rect key="frame" x="20" y="379" width="374" height="140"/>
+                                <rect key="frame" x="20" y="389" width="374" height="120"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="lk8-fD-bfr"/>
+                                    <constraint firstAttribute="height" constant="120" id="lk8-fD-bfr"/>
                                 </constraints>
-                                <mutableString key="text">All information found in this app has been put together by volunteers. Attempts have been made to account for local customs while teaching general practices. While manuals and documents have been consulted by those who have created this app, humility dictates that there are certainly errors or things that could be done better. All errors/constructive feedback pointed out will be taken into account and integrated into the app as time allows. Please send all errors/feedback found to LatinMassServerTrainer@gmail.com</mutableString>
+                                <string key="text">All information found in this app has been put together by volunteers. Attempts have been made to account for local customs while teaching general practices. While manuals and documents have been consulted by those who have created this app, humility dictates that there are certainly errors or things that could be done better. All errors/constructive feedback pointed out will be taken into account and integrated into the app as time allows. Please send all errors/feedback found to LatinMassServerTrainer@gmail.com</string>
                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -65,6 +65,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="learnButton" destination="5yx-Mv-Yh9" id="XHN-zU-eiw"/>
+                        <outlet property="quizButton" destination="QlH-3C-g7F" id="fzT-kH-gN2"/>
+                        <outlet property="textBox" destination="y5h-8t-ocG" id="BN2-LP-e5V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -331,7 +336,7 @@
                             <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             <attributedString key="attributedText">
                                 <fragment>
-                                    <mutableString key="content">There are numerous local variations for serving different Masses. While this is a general instruction, it is not authoritative nor will it account for all local customs and variations.
+                                    <string key="content">There are numerous local variations for serving different Masses. While this is a general instruction, it is not authoritative nor will it account for all local customs and variations.
 
 Additional optional roles such as Crucifer (server who carries the crucifix for the procession) and Torch Bearer (holds candles during the consecration) are not included in the app owing to their extreme variation between locations and the ease of teaching them to an inexperienced server prior to Mass. If those roles are included, have the servers sit in choir and the MC will teach them their additional roles prior to Mass as directed by the priest.
 
@@ -376,7 +381,7 @@ For a Missa Cantata there will be two or six candles lit as local custom dictate
 For Solemn Mass there will be six candles lit.
 
 Unlike in Germanic languages such as English, there are not clear breaks in-between words in Latin. Thus, if a word ends in “s” and the next word begins in “s” the words may flow together. This does not mean one may be lazy in their pronunciation, but this more fluid approach to words does make them flow off of your tongue better. 
-</mutableString>
+</string>
                                     <attributes>
                                         <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <font key="NSFont" size="14" name="Papyrus"/>
@@ -398,7 +403,7 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">There are three kinds of bows:
+                                    <string key="content">There are three kinds of bows:
 Simple bows (referred to from here on as “bows”) are only a bow of the head straight ahead.
 Profound bows are a larger head bow with the shoulders and upper body moving roughly 1 inch forward in the process and always towards the altar cross.
 
@@ -408,7 +413,7 @@ When the missal is on the Epistle side, it is always facing straight towards the
 
 When walking from one location to the next, never walk across the steps at the foot of the altar unless specifically directed (only occurs when carrying something). When going from the side of the altar to the front of the altar (or vice versa) always walk along the base of the steps and make a 90 degree turn when appropriate.
 
-“</mutableString>
+“</string>
                                     <attributes>
                                         <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <font key="NSFont" size="14" name="Papyrus"/>
@@ -453,7 +458,7 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Prayers you need to learn:
+                                    <string key="content">Prayers you need to learn:
 
 These are the prayers prayed by the priest and the server. Most prayers prayed by the priest are omitted and only enough are retained to give sufficient context for when the server must say their prayers or do certain things during the Mass. While the server does not need to have the priest’s prayers memorized, the server must be familiar enough with them that he know when to begin his prayers without any pauses or hesitation. While the translations are not included here, it is expected that servers will be familiar with the meanings of what they are praying. Good translations of the prayers can be found in many different missals found at most parishes that have the Latin Mass as well as on various websites online.
 
@@ -463,7 +468,7 @@ P Procedamus in pace
 S In nómine Christe. Amen.
 
 
-P In nómine Patris </mutableString>
+P In nómine Patris </string>
                                     <attributes>
                                         <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <font key="NSFont" size="14" name="Papyrus"/>
@@ -482,7 +487,7 @@ P In nómine Patris </mutableString>
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content"> et Fíllii, et Spíritus Sancti. Amen.
+                                    <string key="content"> et Fíllii, et Spíritus Sancti. Amen.
 P Introíbo ad altáre Dei.
 S Ad Deum qui lætíficat iuventútem meam.
 P Iúdica me, Deus et discérne causam meam de gente non sancta: ab hómine iníquo, et dolóso érue me.
@@ -495,7 +500,7 @@ P Glória Patri, et Fílio et Spíritui Sancto.
 S Sicut erat in princípio, et nunc, et semper: et in sæcula saeculórum. Amen.
 P Introíbo ad altáre Dei.
 S Ad Deum qui lætifícat iuventútem meam.
-P Adjutórium </mutableString>
+P Adjutórium </string>
                                     <attributes>
                                         <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <font key="NSFont" size="14" name="Papyrus"/>
@@ -514,7 +519,7 @@ P Adjutórium </mutableString>
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content"> nostrum in nómine Dómini.
+                                    <string key="content"> nostrum in nómine Dómini.
 S Qui fecit cœlum et terram.
 P Confítior Deo omnipoténti…oráre pro me ad Dóminum Deum Nostrum.
 S Misereátur tui omnípotens Deus, et dimíssis peccátis tuis, perdúcat te ad vitam ætérnam.
@@ -523,7 +528,7 @@ P Amen.
 S Confíteor Deo omnipoténti, beátæ Maríæ semper Virgini, beáto Michaéli Archángelo, beáto Ioánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus Sanctis, (turn toward the priest during these words and then return to bowing straight ahead) et tibi pater: quia peccávi nimis cogitatióne, verbo, et opere: mea culpa ‡ , mea culpa ‡, mea máxima culpa ‡ . Ideo precor beátam Maríam semper Vírginem, beátam Michaélem Archángelum, beátum Iuánnem Baptístam, sanctos Apóstolos Petrum et Paulum, omnes Sanctos, (turn toward the priest during these words and then return to bowing straight ahead) et te pater, oráre pro me ad Dóminum Deum Nostrum.
 P Misereátur tu omnípotens … ad vitam ætérnam. Amen
 	The bow ends here. Kneel straight up.
-P Indulgéntiam, </mutableString>
+P Indulgéntiam, </string>
                                     <attributes>
                                         <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <font key="NSFont" size="14" name="Papyrus"/>
@@ -542,7 +547,7 @@ P Indulgéntiam, </mutableString>
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content"> absolutiónem … et miséricors Dóminus. Amen.
+                                    <string key="content"> absolutiónem … et miséricors Dóminus. Amen.
 P Deus, (make profound bow) tu convérsus vivificábis nos.
 S Et plebs tua lætábitur in te.
 P Osténde nobis, Dómine, misericórdiam tuam.
@@ -564,7 +569,7 @@ P Kyrie, eléison.
 S Kyrie, eléison.
 P Kyrie, eléison.
 …
-P Glória in excélsis Deo (simple bow) Et in terra pax homínibus bonæ voluntátis. Laudámus te. Benedícimus te. Adorámus te (simple bow). Glorificámus te. Grátias ágimus (simple bow) tibi propter magnam glóriam tuam. Dómine Deus, Rex cæléstis, Deus Pater omnípotens. Dómine Fili unigénite, Iesu Christe (simple bow). Dómine Deus, Agnus Dei, Fílius Patris. Qui tollis peccáta mundi, miserére nobis. Qui tollis peccáta mundi, súcipe (simple bow) deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus. Tu solus Dóminus. Tu solus Altíssimus, Iesu (simple bow) Christe. Cum </mutableString>
+P Glória in excélsis Deo (simple bow) Et in terra pax homínibus bonæ voluntátis. Laudámus te. Benedícimus te. Adorámus te (simple bow). Glorificámus te. Grátias ágimus (simple bow) tibi propter magnam glóriam tuam. Dómine Deus, Rex cæléstis, Deus Pater omnípotens. Dómine Fili unigénite, Iesu Christe (simple bow). Dómine Deus, Agnus Dei, Fílius Patris. Qui tollis peccáta mundi, miserére nobis. Qui tollis peccáta mundi, súcipe (simple bow) deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus. Tu solus Dóminus. Tu solus Altíssimus, Iesu (simple bow) Christe. Cum </string>
                                     <attributes>
                                         <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <font key="NSFont" size="14" name="Papyrus"/>
@@ -583,7 +588,7 @@ P Glória in excélsis Deo (simple bow) Et in terra pax homínibus bonæ volunt�
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content"> Sancto Spíritu, in glória Dei Patris. Amen.
+                                    <string key="content"> Sancto Spíritu, in glória Dei Patris. Amen.
 P Dóminus vobíscum.
 S Et cum spíritu tuo.
 …
@@ -601,7 +606,7 @@ S Glória tibi Domine.
 	At the end of the Gospel the server will respond.
 S Laus tibi Christe.
 …
-P Credo (simple bow) in unum Deum. Patrem omnipoténtem, factórem cæli et terræ, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum (simple bow) Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia sæcula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter not hómines et prompter nostram salútem descéndit de cælis. (Genuflect) Et incarnätus est de Spíritu Sancto ex María Vírgine: Et homo factus est. (Rise) Crucifíxus étiam pro nobis: sub Póntio Piläto passus, et sepúlctus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in cælum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre, Filióque procédit. Qui cum Patre, et Fílio simul (simple bow) adorátur, et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostólicam Ecclesiam. Confiteor unum baptísma in remisiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam </mutableString>
+P Credo (simple bow) in unum Deum. Patrem omnipoténtem, factórem cæli et terræ, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum (simple bow) Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia sæcula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter not hómines et prompter nostram salútem descéndit de cælis. (Genuflect) Et incarnätus est de Spíritu Sancto ex María Vírgine: Et homo factus est. (Rise) Crucifíxus étiam pro nobis: sub Póntio Piläto passus, et sepúlctus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in cælum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre, Filióque procédit. Qui cum Patre, et Fílio simul (simple bow) adorátur, et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostólicam Ecclesiam. Confiteor unum baptísma in remisiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam </string>
                                     <attributes>
                                         <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <font key="NSFont" size="14" name="Papyrus"/>
@@ -620,7 +625,7 @@ P Credo (simple bow) in unum Deum. Patrem omnipoténtem, factórem cæli et terr
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content"> ventúrri sæculi. Amen.
+                                    <string key="content"> ventúrri sæculi. Amen.
 P Dóminus vobíscum.
 S Et cum spíritu tuo.
 …
@@ -636,7 +641,7 @@ S Habémus ad Dóminum.
 P Grátias agámus Dómino Deo nostro.
 S Dignum et iustum est.
 …
-P Sanctus, Sanctus, Sanctus Dóminus Deus Sábaoth. Pleni sunt cæli et terra glória tua. Hosánna in excélsis. Benedictus </mutableString>
+P Sanctus, Sanctus, Sanctus Dóminus Deus Sábaoth. Pleni sunt cæli et terra glória tua. Hosánna in excélsis. Benedictus </string>
                                     <attributes>
                                         <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <font key="NSFont" size="14" name="Papyrus"/>
@@ -655,7 +660,7 @@ P Sanctus, Sanctus, Sanctus Dóminus Deus Sábaoth. Pleni sunt cæli et terra gl
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content"> qui venit in nómine Dómini. Hosánna in excélsis.
+                                    <string key="content"> qui venit in nómine Dómini. Hosánna in excélsis.
 …
 P Per ómnia sæcula sæculórum.
 S Amen.
@@ -679,7 +684,7 @@ P Dóminus vobíscum.
 S Et cum spíritu tuo.
 P Ite, missa est (or on some occasions): Benedicámus Dómino.
 S Deo grátias.
-P Benedícat vos omnípotens Deus, Pater </mutableString>
+P Benedícat vos omnípotens Deus, Pater </string>
                                     <attributes>
                                         <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <font key="NSFont" size="14" name="Papyrus"/>
@@ -698,7 +703,7 @@ P Benedícat vos omnípotens Deus, Pater </mutableString>
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content"> , et Fílius, et Spíritus Sanctus.
+                                    <string key="content"> , et Fílius, et Spíritus Sanctus.
 S Amen.
 P Dóminus vobíscrum.
 S Et cum spíritu tuo.
@@ -710,7 +715,7 @@ S Deo grátias.
 P Procit.
 	Kneel.
 S Per ómnibus et síngulis.
-P Benedíctio ... </mutableString>
+P Benedíctio ... </string>
                                     <attributes>
                                         <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <font key="NSFont" size="14" name="Papyrus"/>
@@ -771,7 +776,7 @@ P Benedíctio ... </mutableString>
                             <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             <attributedString key="attributedText">
                                 <fragment>
-                                    <mutableString key="content">When processing in go in pairs if possible. When you reach the front of the church genuflect towards the altar in pairs, bow towards each other, and then proceed to your seat and stand when you arrive there while facing the altar. Kneel when the priest genuflects to begin Mass.
+                                    <string key="content">When processing in go in pairs if possible. When you reach the front of the church genuflect towards the altar in pairs, bow towards each other, and then proceed to your seat and stand when you arrive there while facing the altar. Kneel when the priest genuflects to begin Mass.
 
 Do not say any of the prayers out-loud, but you may pray them quietly.
 
@@ -779,7 +784,7 @@ Stand, sit, and kneel with the congregation.
 
 Proceed in the manner prescribed by the MC for how to receive the Eucharist.
 
-At the end of Mass, meet in pairs in a line facing towards the altar and with the priest and servers who were serving closest to the altar. When the priest genuflects, genuflect and then turn and walk out in pairs.</mutableString>
+At the end of Mass, meet in pairs in a line facing towards the altar and with the priest and servers who were serving closest to the altar. When the priest genuflects, genuflect and then turn and walk out in pairs.</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -969,14 +974,14 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">After the priest stands erect and ascends the altar, rise and move to position 5 and kneel.
+                                    <string key="content">After the priest stands erect and ascends the altar, rise and move to position 5 and kneel.
 
 At the end of the Epistle rise and go to the center of the altar, genuflect, position 6 (making a square corner and not ascending the steps). Ascend the altar steps, bow, pick up the missal, bow to the crucifix, and descend diagonally to the center of the altar steps holding the missal. At the bottom of the steps in the center of the altar, genuflect towards the altar, and ascend the steps diagonally to the Gospel side of the altar and set down the missal. After setting down the missal, descend the altar steps to position 1 and remain there, facing the priest. When the Gospel begins, bow towards the priest when he says the Holy Name (or if the Holy Name is late in the Gospel or not in the Gospel at all, after the priest has read a good portion of the Gospel) and then proceed to position 5, genuflecting in the center of the altar as always and stand at the same angle as the priest (towards the Gospel side of the altar). 
 
 If there is a homily, meet the priest at the center of the altar, genuflect with him, and proceed to your chair. After the homily, meet the priest at the center of the altar, genuflect, and return to your place at position 5 and face the altar.
 
 If there is no homily, at the end of the Gospel turn to directly face the altar and stay standing.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1017,10 +1022,10 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Then proceed to the credence table and take the tops off of the cruets (vessels that hold the wine and water) and pick them up with the wine cruet in the right hand and the water cruet in the left hand. The server does not hold the cruets by the handle but holds them by the base of the cruet with the handles facing out for the priest to grab.
+                                    <string key="content">Then proceed to the credence table and take the tops off of the cruets (vessels that hold the wine and water) and pick them up with the wine cruet in the right hand and the water cruet in the left hand. The server does not hold the cruets by the handle but holds them by the base of the cruet with the handles facing out for the priest to grab.
 
 Proceed to position 6. When the priest turns to you for you to give him the cruets, bow and ascend to position 7 and hand the wine cruet to the priest after having kissed the handle of the cruet and place the water cruet in the right hand (always hand things from the right hand and receive in the left hand) and be prepared for the priest to hand you the wine cruet and after receiving the wine cruet back kiss the handle again. Immediately repeat this process with the water cruet.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1145,7 +1150,7 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Ascend the steps and kneel in position 10 and place the bells to your right. At both the consecration of the bread and the wine according to local custom:
+                                    <string key="content">Ascend the steps and kneel in position 10 and place the bells to your right. At both the consecration of the bread and the wine according to local custom:
 	Ring the bells once at both the genuflection before and after the elevation and THRICE (or once, according to local custom) during the elevation. With your left hand grab the base of the priests chasuble as he rises from his genuflection and raise it during the elevation roughly six inches or raise it eight inches for gothic, semi-gothic, or conical chasubles with those chasubles being grabbed from the right side at waist height.
 
 After the consecration return, along with the bells, to position 5 and kneel.
@@ -1159,7 +1164,7 @@ Bow from the waist when he consumes the precious body and then get the patten fr
 Ascend the center of the altar steps and kneel to receive Communion, holding the paten under your chin to catch any particles that might drop.
 
 Stand and lead the priest to where people will be receiving Communion beginning from the left (from the perspective of the congregation). Hold the patten while any other people receive Communion so that no particles drop on the ground from the consecrated host. When walking place your other hand in front of the paten to keep particles from being blown off of the paten by the air from your movements and always ensure that it has the same side facing straight up so no particles fall off of it. After the last person has received communion hand the paten to the priest.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1223,8 +1228,8 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Return the cruets to the credence table. Go to the center of the altar, genuflect at the center, proceed to position 1 and ascend the steps at the side to pick up the Missal. Bow to the crucifix, take the missal, bow again, and descend the steps diagonally to the center of the altar, genuflect, and ascend diagonally to the Epistle side and place the Missal facing the congregation. Then take the chalice veil and proceed in similar manner to the Gospel side and either place it on the altar or hand it to the priest as local custom dictates. Then descend the side steps of the altar by way of position 1 and proceed, making a squared corner, to position 2 and kneel.
-</mutableString>
+                                    <string key="content">Return the cruets to the credence table. Go to the center of the altar, genuflect at the center, proceed to position 1 and ascend the steps at the side to pick up the Missal. Bow to the crucifix, take the missal, bow again, and descend the steps diagonally to the center of the altar, genuflect, and ascend diagonally to the Epistle side and place the Missal facing the congregation. Then take the chalice veil and proceed in similar manner to the Gospel side and either place it on the altar or hand it to the priest as local custom dictates. Then descend the side steps of the altar by way of position 1 and proceed, making a squared corner, to position 2 and kneel.
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1393,14 +1398,14 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">After the priest stands erect and ascends the altar, rise, meet Acolyte 2 at the center of the altar, genuflect, and move to either position 2 or 5 and kneel.
+                                    <string key="content">After the priest stands erect and ascends the altar, rise, meet Acolyte 2 at the center of the altar, genuflect, and move to either position 2 or 5 and kneel.
 
 At the end of the Epistle rise and meet the other acolyte at the center of the altar, genuflect, and remain standing in plano while acolyte 2 moves the missal to the Gospel side, genuflecting with him when he reaches the center of the altar. If you started on the Gospel side, move to position 4 after genuflecting here. When acolyte 2 returns during the Gospel, genuflect with him when he reaches the front of the altar and move to position 5, and turn in the same angle as the priest.
 
 If there is a homily, meet the priest at the center of the altar, genuflect with him, and proceed to your chair. After the homily, meet the priest at the center of the altar (position 4), genuflect, and return to position 5 and face the altar.
 
 If there is no homily, at the end of the Gospel turn to directly face the altar and stay standing while still standing in position 5.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1441,12 +1446,12 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Meet the other acolyte at the center of the altar, genuflect, and then lead acolyte 2 to the credence table and take the top off of the wine cruet (vessel that hold the wine and water) and pick the wine cruet up with the wine cruet in the right hand. The server does not hold the cruets by the handle but holds them by the base of the cruet with the handles facing out for the priest to grab.
+                                    <string key="content">Meet the other acolyte at the center of the altar, genuflect, and then lead acolyte 2 to the credence table and take the top off of the wine cruet (vessel that hold the wine and water) and pick the wine cruet up with the wine cruet in the right hand. The server does not hold the cruets by the handle but holds them by the base of the cruet with the handles facing out for the priest to grab.
 
 Proceed to position 6 with acolyte 2 to your left. When the priest turns to you for you to give him the cruets, bow and ascend to position 7 and hand the wine cruet to the priest after having kissed the handle of the cruet and be prepared for the priest to hand you the wine cruet and after receiving the wine cruet in your left hand back kiss the handle again. (Alternatively, both acolytes may kiss the cruets after bowing towards the priest and again kiss them after they have both received them back from the priest.)
 
 Return the cruets to the credence table and return to position 6 with the dish in your left hand and holding the water cruet in your right hand. When the priest turns to you, bow and ascend to position 7 and pour the water over his index fingers and thumbs into the dish. After he has placed the towel back on acolyte 2’s hands, return these items to the credence table and arrange them in an orderly fashion.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1550,7 +1555,7 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Ascend the steps after genuflecting with the other acolyte in the center of the altar and kneel in position 10 and place the bells to your right. At both the consecration of the bread and the wine according to local custom:
+                                    <string key="content">Ascend the steps after genuflecting with the other acolyte in the center of the altar and kneel in position 10 and place the bells to your right. At both the consecration of the bread and the wine according to local custom:
 	Ring the bells once at both the genuflection before and after the elevation and THRICE (or once, according to local custom) during the elevation. With your left hand grab the base of the priests chasuble as he rises from his genuflection and raise it during the elevation roughly six inches or raise it eight inches for gothic, semi-gothic, or conical chasubles with those chasubles being grabbed from the right side at waist height.
 
 After the consecration return, along with the bells, to position 5 and kneel making sure to genuflect with the other acolyte at the center of the altar on the way.
@@ -1564,7 +1569,7 @@ Bow from the waist when he consumes the precious body and then, after meeting ac
 Ascend the altar steps and kneel to receive Communion, holding the paten under your chin to catch any particles that might drop.
 
 The acolyte who started on the priest’s right will stand and lead the priest to where people will be receiving Communion beginning from the left (from the perspective of the congregation). Hold the patten while any other people receive Communion so that no particles drop on the ground from the consecrated host. When walking place your other hand in front of the paten to keep particles from being blown off of the paten by the air from your movements and always ensure that it has the same side facing straight up so no particles fall off of it. After the last person has received Communion hand the paten to the priest.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1584,10 +1589,10 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Proceed to position 5 and kneel while the priest places the ciborium into the tabernacle.
+                                    <string key="content">Proceed to position 5 and kneel while the priest places the ciborium into the tabernacle.
 
 If the priest does not open the tabernacle or, if he does, after he has closed the tabernacle, rise and genuflect at the center of the altar with acolyte 2, then proceed to the credence table. Take the wine cruet, remove the top, and approach the priest by way of position 6. When you get there, bow, and pour some wine into the chalice making sure not to touch the chalice with the cruet. Then take the paten by the handle, bow, and go back to the credence table and place the paten there. Proceed to position 6 with acolyte 2 where you will both bow to the priest and then ascend to position 7. Pour the rest of the wine over the priest’s fingers making sure that all of the wine goes into the chalice and that the cruet does not touch the chalice. After acolyte 2 has poured the rest of the water over the priest’s fingers, bow to the priest, then return to the credence table.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1607,8 +1612,8 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Return the cruets to the credence table. Go to the center of the altar, genuflect at the center, proceed to position 6 and ascend the steps at the side to pick up the chalice veil. Bow to the crucifix, take the chalice veil, bow again, and descend the steps diagonally to the center of the altar, genuflect with acolyte 2, and ascend diagonally to the Gospel allowing acolyte 2 to ascend the steps prior to you making sure to keep the decorated side of the chalice veil facing the people the entire time. Either place the chalice veil on the altar or hand it to the priest according to local custom. Then descend the side steps of the altar on the Gospel side and proceed, making a squared corner, to the front of the altar. Genuflect with acolyte 2 and proceed to the side of the altar you began the Mass on and kneel in either position 2 or 5.
-</mutableString>
+                                    <string key="content">Return the cruets to the credence table. Go to the center of the altar, genuflect at the center, proceed to position 6 and ascend the steps at the side to pick up the chalice veil. Bow to the crucifix, take the chalice veil, bow again, and descend the steps diagonally to the center of the altar, genuflect with acolyte 2, and ascend diagonally to the Gospel allowing acolyte 2 to ascend the steps prior to you making sure to keep the decorated side of the chalice veil facing the people the entire time. Either place the chalice veil on the altar or hand it to the priest according to local custom. Then descend the side steps of the altar on the Gospel side and proceed, making a squared corner, to the front of the altar. Genuflect with acolyte 2 and proceed to the side of the altar you began the Mass on and kneel in either position 2 or 5.
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1716,8 +1721,8 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">When the priest reaches the altar, prior to genuflecting he will hand his biretta to the acolyte who begins on his right. Take it and after the genuflection place it on the sedilia (priest’s chair) and return to the priest’s right and kneel on the floor when the priest genuflects.
-</mutableString>
+                                    <string key="content">When the priest reaches the altar, prior to genuflecting he will hand his biretta to the acolyte who begins on his right. Take it and after the genuflection place it on the sedilia (priest’s chair) and return to the priest’s right and kneel on the floor when the priest genuflects.
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1758,14 +1763,14 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">After the priest stands erect and ascends the altar, rise, meet Acolyte 1 at the center of the altar, genuflect, and move to either position 2 or 5 and kneel.
+                                    <string key="content">After the priest stands erect and ascends the altar, rise, meet Acolyte 1 at the center of the altar, genuflect, and move to either position 2 or 5 and kneel.
 
 At the end of the Epistle rise and meet acolyte 1 at the center of the altar, genuflect with acolyte 1, continue to position 6 (making a square corner and not ascending the steps). Ascend the altar steps, bow, pick up the missal, bow to the crucifix, and descend diagonally to the center of the altar steps holding the missal. At the bottom of the steps in the center of the altar, genuflect towards the altar and ascend the steps diagonally to the Gospel side of the altar and set down the missal angled towards the center of the altar. After setting down the missal, descend the altar steps to position 1 and remain there facing the priest. When the Gospel begins, bow towards the priest when he says the Holy Name (or if the Holy Name is late in the Gospel or not in the Gospel at all, after the priest has read a good portion of the Gospel) proceed to the foot of the altar, genuflect with acolyte 1 and move to position 2 and stand at the same angle as the priest. 
 
 If there is a homily, meet the priest at the center of the altar, genuflect with him, and proceed to your chair. After the homily, meet the priest at the foot of the altar, genuflect, and return to your place at the Gospel side of the altar and face the altar.
 
 If there is no homily, at the end of the Gospel turn to directly face the altar and stay standing.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1785,12 +1790,12 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">After the creed, meet the other acolyte at the center of the altar, genuflect, and then follow acolyte 1 to the credence table and take the top off of the water cruet (vessel that hold the wine and water) and pick the water cruet up with the water cruet in the right hand. The server does not hold the cruets by the handle but holds them by the base of the cruet with the handles facing out for the priest to grab.
+                                    <string key="content">After the creed, meet the other acolyte at the center of the altar, genuflect, and then follow acolyte 1 to the credence table and take the top off of the water cruet (vessel that hold the wine and water) and pick the water cruet up with the water cruet in the right hand. The server does not hold the cruets by the handle but holds them by the base of the cruet with the handles facing out for the priest to grab.
 
 Proceed to position 6 and stand in plano with acolyte 1 to your right. When the priest turns to you for you to give him the cruets, bow and ascend to position 7 and hand the water cruet to the priest after having kissed the handle of the cruet and be prepared for the priest to hand you the water cruet and after receiving the water cruet in your left hand back kiss the handle again. (Alternatively, both acolytes may kiss the cruets after bowing towards the priest and again kiss them after they have both received them back from the priest.)
 
 Return the cruets to the credence table and return to position 6 holding the towel by two corners (with the cross facing the priest if applicable), bow and ascend to position 7 and offer the towel to the priest after his hands have been washed and immediately fold your hands. After he has placed the towel back on your folded hands, return these items to the credence table and arrange them in an orderly fashion.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1831,7 +1836,7 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Ascend the steps after genuflecting with the other acolyte in the center of the altar and kneel in position 9. At both the consecration of the bread and wine grab the base of the priests chasuble with your right hand as he rises from his genuflection and raise it during the elevation roughly six inches or raise it eight inches for gothic, semi-gothic, or conical chasubles with those chasubles being grabbed from the left side at waist height.
+                                    <string key="content">Ascend the steps after genuflecting with the other acolyte in the center of the altar and kneel in position 9. At both the consecration of the bread and wine grab the base of the priests chasuble with your right hand as he rises from his genuflection and raise it during the elevation roughly six inches or raise it eight inches for gothic, semi-gothic, or conical chasubles with those chasubles being grabbed from the left side at waist height.
 
 After the consecration return to position 2 and kneel making sure to genuflect with the other acolyte at the center of the altar on the way.
 
@@ -1840,7 +1845,7 @@ Bow from the waist when he consumes the precious body and genuflect at the cente
 Ascend the altar steps and kneel to receive Communion, holding the paten under your chin to catch any particles that might drop.
 
 Stand and lead the priest to where people will be receiving Communion beginning from the left (from the perspective of the congregation). Hold the patten while any other people receive Communion so that no particles drop on the ground from the consecrated host. When walking place your other hand in front of the paten to keep particles from being blown off of the paten by the air from your movements and always ensure that it has the same side facing straight up so no particles fall off of it. After the last person has received Communion hand the paten to the priest.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1871,9 +1876,9 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">If the priest does not open the tabernacle or, if he does, after he has closed the tabernacle, rise and genuflect at the center of the altar with acolyte 1, then proceed with him to the credence table. Once there, wait until acolyte 1 returns with the Paten and then remove the top from the water cruet, proceed to position 6 where you will both bow to the priest and then ascend to position 7. Pour the rest of the water over the priest’s fingers making sure that all of the water goes into the chalice and that the cruet does not touch the chalice after acolyte 1 has poured the rest of the wine over the priest’s fingers. Bow to the priest, then return to the credence table.
+                                    <string key="content">If the priest does not open the tabernacle or, if he does, after he has closed the tabernacle, rise and genuflect at the center of the altar with acolyte 1, then proceed with him to the credence table. Once there, wait until acolyte 1 returns with the Paten and then remove the top from the water cruet, proceed to position 6 where you will both bow to the priest and then ascend to position 7. Pour the rest of the water over the priest’s fingers making sure that all of the water goes into the chalice and that the cruet does not touch the chalice after acolyte 1 has poured the rest of the wine over the priest’s fingers. Bow to the priest, then return to the credence table.
 
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -1882,8 +1887,8 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Return the cruets to the credence table. Go to the center of the altar, genuflect at the center, proceed to position 1 and ascend the steps at the side to pick up the missal. Bow to the crucifix, take the missal, bow again, and descend the steps diagonally to the center of the altar, genuflect with acolyte 1, and ascend diagonally to the Epistle side of the altar where you will place the missal, then bow to the crucifix. Then descend the steps by way of position 6 and proceed, making a squared corner, to the front of the altar. Genuflect with acolyte 1 in the center and proceed to the side of the altar you began the Mass on and kneel.
-</mutableString>
+                                    <string key="content">Return the cruets to the credence table. Go to the center of the altar, genuflect at the center, proceed to position 1 and ascend the steps at the side to pick up the missal. Bow to the crucifix, take the missal, bow again, and descend the steps diagonally to the center of the altar, genuflect with acolyte 1, and ascend diagonally to the Epistle side of the altar where you will place the missal, then bow to the crucifix. Then descend the steps by way of position 6 and proceed, making a squared corner, to the front of the altar. Genuflect with acolyte 1 in the center and proceed to the side of the altar you began the Mass on and kneel.
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -2199,8 +2204,8 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">During the singing of the Gloria, if the priest chooses to return to the sedilia, descend the steps by way of position 6 and meet the priest at the center of the altar at position 4. Genuflect with him, lead him to the sedilia and when you get there hand him his biretta and stand to his right facing the congregation. When standing by the sedilia, continue to do the normal bows during the Gloria, but bow towards the priest and then towards the altar cross each time. When the priest takes off his biretta, take it from him, place it on the sedilia, and return to position 8 retracing your movements that you made to come to the sedilia.
-</mutableString>
+                                    <string key="content">During the singing of the Gloria, if the priest chooses to return to the sedilia, descend the steps by way of position 6 and meet the priest at the center of the altar at position 4. Genuflect with him, lead him to the sedilia and when you get there hand him his biretta and stand to his right facing the congregation. When standing by the sedilia, continue to do the normal bows during the Gloria, but bow towards the priest and then towards the altar cross each time. When the priest takes off his biretta, take it from him, place it on the sedilia, and return to position 8 retracing your movements that you made to come to the sedilia.
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -2262,7 +2267,7 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">At the end of the Epistle, proceed to position 6 (making a square corner and not ascending the steps). Ascend the altar steps, bow, pick up the missal, bow to the crucifix, and descend diagonally to the center of the altar steps holding the missal. At the bottom of the steps in the center of the altar the two acolytes will meet you, holding their candles, genuflect towards the altar with the acolytes, and ascend the steps diagonally to the Gospel side of the altar and set down the missal. After setting down the missal, descend the altar steps to position 1 and remain there, facing the priest. When the Gospel begins, bow towards the priest when he says the Holy Name (or if the Holy Name is late in the Gospel or not in the Gospel at all, after the priest has read a good portion of the Gospel) and remain there until the end of the Gospel. 
+                                    <string key="content">At the end of the Epistle, proceed to position 6 (making a square corner and not ascending the steps). Ascend the altar steps, bow, pick up the missal, bow to the crucifix, and descend diagonally to the center of the altar steps holding the missal. At the bottom of the steps in the center of the altar the two acolytes will meet you, holding their candles, genuflect towards the altar with the acolytes, and ascend the steps diagonally to the Gospel side of the altar and set down the missal. After setting down the missal, descend the altar steps to position 1 and remain there, facing the priest. When the Gospel begins, bow towards the priest when he says the Holy Name (or if the Holy Name is late in the Gospel or not in the Gospel at all, after the priest has read a good portion of the Gospel) and remain there until the end of the Gospel. 
 
 After the Gospel, if there is a homily, meet the priest at the center of the altar at the base of the altar steps, standing on the priests left and with the other servers lined up behind you as before the Gospel. All will genuflect together, then precede them to the sedilia where you may sit at a place other than where the priest sits (where the biretta will be placed). After the homily, rise and meet the priest at position 4 where you will genuflect with him.
 
@@ -2289,7 +2294,7 @@ Where it is customary, hold the intonation card for the priest for the “Ite Mi
 After the priest has given the final blessing, rise and go to the top step on the side of the Gospel side of the altar, genuflecting and making a square corner on your way. Where it is customary, hold the Final Gospel card for the priest while he recites the Final Gospel.
 
 After the Final Gospel, return the card to its place, then proceed to position 4, descending by way of position 1 and making a square corner on your way. Then, retrieve the biretta and hand it to the priest after the genuflection with you standing on his right. Precede the priest out of the sanctuary and to the sacristy, following the rest of the servers. 
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -2333,7 +2338,7 @@ After the Final Gospel, return the card to its place, then proceed to position 4
                             <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             <attributedString key="attributedText">
                                 <fragment>
-                                    <mutableString key="content">Light your candle that you will carry in the procession.
+                                    <string key="content">Light your candle that you will carry in the procession.
 
 According to local custom, walk next to Acolyte 2 or next to the crucifer (with Acolyte 2 on the other side). Genuflect when you reach the foot of the altar and proceed to the credence table and place your candle on the back corner of the table. Stand on one side of the credence table with acolyte 2 standing on the other side.
 
@@ -2356,7 +2361,7 @@ If the priest opens the tabernacle, stay kneeling while the tabernacle is open. 
 Go to the center of the altar, genuflect at the center, proceed to position 6 and ascend the steps at the side to pick up the chalice veil. Bow to the crucifix, take the chalice veil, bow again, and descend the steps diagonally to the center of the altar, genuflect with acolyte 2, and ascend diagonally to the Gospel allowing acolyte 2 to ascend the steps prior to you making sure to keep the decorated side of the chalice veil facing the people the entire time. Either place the chalice veil on the altar or hand it to the priest according to local custom. Then descend the side steps of the altar on the Gospel side and proceed, making a squared corner, to the front of the altar in the center. Genuflect with acolyte 2 and proceed to the credence table and kneel. 
 
 When the priest says “Dominus Vobiscum” (just before the Post Communion prayer), rise along with the rest of the servers. Then, kneel just before the priest gives the final blessing. After the final blessing, rise and stand for the Last Gospel, genuflecting at the proper time. After the genuflection during the Last Gospel, rise, retrieve your candle, and line up at the base of the altar in the reverse manner in which you processed in. Genuflect with the priest and the rest of the servers at the signal of the MC and process out of the church in the reverse manner in which you processed in.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -2400,7 +2405,7 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                             <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             <attributedString key="attributedText">
                                 <fragment>
-                                    <mutableString key="content">Light your candle that you will carry in the procession.
+                                    <string key="content">Light your candle that you will carry in the procession.
 
 According to local custom, walk next to Acolyte 1 or next to the crucifer (with Acolyte 1 on the other side). Genuflect when you reach the foot of the altar and proceed to the credence table and place your candle on the back corner of the table. Stand on one side of the credence table with acolyte 1 standing on the other side.
 
@@ -2422,7 +2427,7 @@ If the priest opens the tabernacle, stay kneeling while the tabernacle is open. 
 
 Go to the center of the altar, genuflect at the center, proceed to position 1 and ascend the steps at the side to pick up the missal. Bow to the crucifix, take the missal, bow again, and descend the steps diagonally to the center of the altar, genuflect with acolyte 1, and ascend diagonally to the Epistle side of the altar where you will place the missal, then bow to the crucifix. Then descend the steps by way of position 6 and proceed, making a squared corner, to the front of the altar in the center. Genuflect with acolyte 1, and return to your place at the credence table and kneel.
 
-When the priest says “Dominus Vobiscum” (just before the Post Communion prayer), rise along with the rest of the servers. Then, kneel just before the priest gives the final blessing. After the final blessing, rise and stand for the Last Gospel, genuflecting at the proper time. After the genuflection during the Last Gospel, rise, retrieve your candle, and line up at the base of the altar in the reverse manner in which you processed in. Genuflect with the priest and the rest of the servers at the signal of the MC and process out of the church in the same manner in which you processed in.</mutableString>
+When the priest says “Dominus Vobiscum” (just before the Post Communion prayer), rise along with the rest of the servers. Then, kneel just before the priest gives the final blessing. After the final blessing, rise and stand for the Last Gospel, genuflecting at the proper time. After the genuflection during the Last Gospel, rise, retrieve your candle, and line up at the base of the altar in the reverse manner in which you processed in. Genuflect with the priest and the rest of the servers at the signal of the MC and process out of the church in the same manner in which you processed in.</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -2576,13 +2581,13 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                             <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             <attributedString key="attributedText">
                                 <fragment>
-                                    <mutableString key="content">During a Missa Cantata with one server, most things are the same as at low Mass with one server with the following notes:
+                                    <string key="content">During a Missa Cantata with one server, most things are the same as at low Mass with one server with the following notes:
 
 1) Follow the priest’s prayers, not those chanted by the cantor. 
 2) Say your prayers slightly quieter so as to not overpower the priest. 
 3) The priest might go to sit at the sedilia during the Gloria and Credo, if he does so, genuflect at the center of the altar with him and sit next to him, handing him his biretta before he sits down. 
 4) Omit the Leonine Prayers at the end of the Mass.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -2644,14 +2649,14 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">After the priest stands erect and ascends the altar steps, rise and move to position 2 and kneel.
+                                    <string key="content">After the priest stands erect and ascends the altar steps, rise and move to position 2 and kneel.
 
 At the end of the Epistle rise and go to the center of the altar, genuflect, continue to position 6 (making a square corner and not ascending the steps). Once you are at position 6, ascend the altar steps, bow, pick up the missal, bow to the crucifix, and descend diagonally to the center between positions 3 and 4 holding the missal. At the bottom of the steps genuflect towards the altar and ascend the steps diagonally to the Gospel side of the altar and set down the missal. After setting down the missal, descend the altar steps to position 1 and remain there facing the priest. When the Gospel begins, bow towards the priest when he says the Holy Name (or if the Holy Name is late in the Gospel or not in the Gospel at all, after the priest has read a good portion of the Gospel) and then proceed to position 5, genuflecting in the center of the altar as always and stand at the same angle as the priest (towards the Gospel side of the altar). 
 
 If there is a homily, meet the priest at position 4, genuflect with him, and proceed to your chair. After the homily, meet the priest at position 4, genuflect, and return to position 5 and face the altar.
 
 If there is no homily, at the end of the Gospel turn to directly face the altar and stay standing in position 5.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -2692,12 +2697,12 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Proceed to the credence table and take the tops off of the cruets (vessels that hold the wine and water) and pick them up with the wine cruet in the right hand and the water cruet in the left hand. The server does not hold the cruets by the handle but holds them by the base of the cruet with the handles facing out for the priest to grab.
+                                    <string key="content">Proceed to the credence table and take the tops off of the cruets (vessels that hold the wine and water) and pick them up with the wine cruet in the right hand and the water cruet in the left hand. The server does not hold the cruets by the handle but holds them by the base of the cruet with the handles facing out for the priest to grab.
 
 Proceed to position 6 and stand there in plano. When the priest turns to you for you to give him the cruets, bow and ascend to position 7 and hand the wine cruet to the priest after having kissed the handle of the cruet and place the water cruet in the right hand (always hand things from the right hand and receive in the left hand) and be prepared for the priest to hand you the wine cruet and after receiving the wine cruet back kiss the handle again. Immediately repeat this process with the water cruet.
 
 Return the cruets to the credence table and return to position 6 with the the towel over your left forearm, the dish in your left hand, and holding the water cruet in your right hand. When the priest turns to you, bow and ascend to position 7 and pour the water over his index fingers and thumbs into the dish. After he has placed the towel back on your forearm, return these items to the credence table and arrange them in an orderly fashion.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -2801,7 +2806,7 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Ascend to position 10 and kneel, placing the bells to your right. At both the consecration of the bread and the wine according to local custom:
+                                    <string key="content">Ascend to position 10 and kneel, placing the bells to your right. At both the consecration of the bread and the wine according to local custom:
 	Ring the bells once at both the genuflection before and after the elevation and THRICE (or once, according to local custom) during the elevation. With your left hand grab the base of the priests chasuble as he rises from his genuflection and raise it during the elevation roughly six inches or raise it eight inches for gothic, semi-gothic, or conical chasubles with those chasubles being grabbed from the right side at waist height.
 
 After the consecration return, along with the bells, to position 5 altar and kneel.
@@ -2815,7 +2820,7 @@ Bow from the waist when he consumes the precious body and then get the patten fr
 Ascend the altar steps and kneel to receive Communion, holding the paten under your chin to catch any particles that might drop.
 
 Stand and lead the priest to where people will be receiving Communion beginning from the left (from the perspective of the congregation). Hold the patten while any other people receive Communion so that no particles drop on the ground from the consecrated host. When walking place your other hand in front of the paten to keep particles from being blown off of the paten by the air from your movements and always ensure that it has the same side facing straight up so no particles fall off of it. After the last person has received Communion hand the paten to the priest.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -2879,8 +2884,8 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Return the cruets to the credence table. Go to position 1, going around the front of the steps and genuflecting at the center, and then ascend the steps to pick up the missal. Bow to the crucifix, take the missal, bow again, and descend the steps diagonally to the center of the altar between positions 3 and 4, genuflect, and ascend diagonally to the Epistle side and place the Missal facing the congregation. Take the chalice veil and proceed in similar manner to the Gospel side and either place it on the altar or hand it to the priest as local custom dictates. Descend the side steps of the altar to position 2 going by way of position 1 and kneel once you have arrived.
-</mutableString>
+                                    <string key="content">Return the cruets to the credence table. Go to position 1, going around the front of the steps and genuflecting at the center, and then ascend the steps to pick up the missal. Bow to the crucifix, take the missal, bow again, and descend the steps diagonally to the center of the altar between positions 3 and 4, genuflect, and ascend diagonally to the Epistle side and place the Missal facing the congregation. Take the chalice veil and proceed in similar manner to the Gospel side and either place it on the altar or hand it to the priest as local custom dictates. Descend the side steps of the altar to position 2 going by way of position 1 and kneel once you have arrived.
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -3159,8 +3164,8 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">After the priest stands erect and ascends the altar, rise and move to position 6 and the thurifer will meet you and you will take the boat and spoon from him. Both of you face the priest, do a simple bow ascend the altar steps and meet him at position 10. Hand the priest the spoon and take the spoon when he offers it to you and give the boat and spoon to Acolyte 2 who will meet you where you are. Take the thurible from the thurifer and hand it to the priest. As the priest incenses the altar stay on his right and genuflect when the priest does. Where it is customary, hold the priest’s chasuble off of his shoulder by a few inches using your left hand.
-</mutableString>
+                                    <string key="content">After the priest stands erect and ascends the altar, rise and move to position 6 and the thurifer will meet you and you will take the boat and spoon from him. Both of you face the priest, do a simple bow ascend the altar steps and meet him at position 10. Hand the priest the spoon and take the spoon when he offers it to you and give the boat and spoon to Acolyte 2 who will meet you where you are. Take the thurible from the thurifer and hand it to the priest. As the priest incenses the altar stay on his right and genuflect when the priest does. Where it is customary, hold the priest’s chasuble off of his shoulder by a few inches using your left hand.
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -3224,8 +3229,8 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">During the singing of the Gloria, if the priest chooses to return to the sedilia, descend the steps by way of position 6 and meet the priest at position 4. Genuflect with him, lead him to the sedilia and when you get there hand him his biretta and stand to his right facing the congregation. When standing by the sedilia, continue to do the normal bows during the Gloria, but bow towards the priest and then towards the altar cross each time. When the priest takes off his biretta, take it from him and place it on the sedilia, then return to position 8 retracing your movements that you made to come to the sedilia.
-</mutableString>
+                                    <string key="content">During the singing of the Gloria, if the priest chooses to return to the sedilia, descend the steps by way of position 6 and meet the priest at position 4. Genuflect with him, lead him to the sedilia and when you get there hand him his biretta and stand to his right facing the congregation. When standing by the sedilia, continue to do the normal bows during the Gloria, but bow towards the priest and then towards the altar cross each time. When the priest takes off his biretta, take it from him and place it on the sedilia, then return to position 8 retracing your movements that you made to come to the sedilia.
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -3287,8 +3292,8 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Meet the thurifer at position 6 where you will take the boat and spoon from him. Both of you face the priest, do a simple bow ascend the altar steps, and meet him at position 10. Hand him the spoon and take the spoon when he offers it back to you, then give the boat and spoon back to the thurifer. After the thurifer has descended the steps of the altar, move to the missal, bow to the crucifix, pick up the missal, bow to the crucifix, and descend diagonally to the center of the altar steps holding the missal. The two acolytes along with the thurifer will meet you at the center of the altar at the bottom of the altar steps. You will stand holding the missal to the left of the thurifer with the two acolytes standing side by side directly behind you and the thurifer. You will all genuflect together, then you will ascend the steps of the altar diagonally to the Gospel side of the altar and set down the missal. After setting down the missal, stand to the left of where the priest will stand while proclaiming the Gospel. Once the priest says “Sequentia Sancti Evangelii …” and you reply “Gloria tibi Dómine,” take the thurible from the thurifer (who will be standing directly behind you on the steps between you and the congregation) and hand the thurible to the priest. After he has incensed the Gospel book, take it from him and hand it back to the thurifer and then proceed to position 1 where you will stand in plano between the acolytes and the altar steps and to the left of the thurifer.
-</mutableString>
+                                    <string key="content">Meet the thurifer at position 6 where you will take the boat and spoon from him. Both of you face the priest, do a simple bow ascend the altar steps, and meet him at position 10. Hand him the spoon and take the spoon when he offers it back to you, then give the boat and spoon back to the thurifer. After the thurifer has descended the steps of the altar, move to the missal, bow to the crucifix, pick up the missal, bow to the crucifix, and descend diagonally to the center of the altar steps holding the missal. The two acolytes along with the thurifer will meet you at the center of the altar at the bottom of the altar steps. You will stand holding the missal to the left of the thurifer with the two acolytes standing side by side directly behind you and the thurifer. You will all genuflect together, then you will ascend the steps of the altar diagonally to the Gospel side of the altar and set down the missal. After setting down the missal, stand to the left of where the priest will stand while proclaiming the Gospel. Once the priest says “Sequentia Sancti Evangelii …” and you reply “Gloria tibi Dómine,” take the thurible from the thurifer (who will be standing directly behind you on the steps between you and the congregation) and hand the thurible to the priest. After he has incensed the Gospel book, take it from him and hand it back to the thurifer and then proceed to position 1 where you will stand in plano between the acolytes and the altar steps and to the left of the thurifer.
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -3308,7 +3313,7 @@ Cg
                                     </attributes>
                                 </fragment>
                                 <fragment>
-                                    <mutableString key="content">Once the Gospel is finished and you have given the response, take the thurible from the thurifer and incense the priest as you did previously, then hand the thurible back to the thurifer.
+                                    <string key="content">Once the Gospel is finished and you have given the response, take the thurible from the thurifer and incense the priest as you did previously, then hand the thurible back to the thurifer.
 
 If there is a homily, meet the priest at the center of the altar at the base of the altar steps, standing on the priests left and with the other servers lined up behind you as before the Gospel. All will genuflect together, then precede them to the sedilia where you may sit at a place other than where the priest sits (where the biretta will be placed). After the homily, rise and meet the priest at position 4 where you will genuflect with him.
 
@@ -3340,7 +3345,7 @@ After the Final Gospel, return the card to its place, then proceed to the center
 
 
 
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -3395,7 +3400,7 @@ Cg
                             <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             <attributedString key="attributedText">
                                 <fragment>
-                                    <mutableString key="content">Light your candle that you will carry in the procession.
+                                    <string key="content">Light your candle that you will carry in the procession.
 
 According to local custom, walk next to Acolyte 2 or next to the crucifer (with Acolyte 2 on the other side). Genuflect when you reach the foot of the altar and proceed to the credence table and place your candle on the back corner of the table. Stand on one side of the credence table with acolyte 2 standing on the other side.
 
@@ -3418,7 +3423,7 @@ If the priest opens the tabernacle, stay kneeling while the tabernacle is open. 
 Go to the center of the altar, genuflect at the center, proceed to position 6 and ascend the steps at the side to pick up the chalice veil. Bow to the crucifix, take the chalice veil, bow again, and descend the steps diagonally to the center of the altar, genuflect with acolyte 2, and ascend diagonally to the Gospel side of the altar allowing acolyte 2 to ascend the steps prior to you making sure to keep the decorated side of the chalice veil facing the people the entire time. Either place the chalice veil on the altar or hand it to the priest according to local custom. Then descend the side steps of the altar on the Gospel side and proceed, making a squared corner, to the front of the altar. Genuflect with acolyte 2 and proceed to the credence table, and kneel. 
 
 When the priest says “Dominus Vobiscum” (just before the Post Communion prayer), rise along with the rest of the servers. Then, kneel just before the priest gives the final blessing. After the final blessing, rise and stand for the Last Gospel, genuflecting at the proper time. After the genuflection during the Last Gospel, rise, retrieve your candle, and line up at the base of the altar in the reverse manner in which you processed in. Genuflect with the priest and the rest of the servers at the signal of the MC and process out of the church in the reverse manner in which you processed in.
-</mutableString>
+</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -3462,7 +3467,7 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                             <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             <attributedString key="attributedText">
                                 <fragment>
-                                    <mutableString key="content">Light your candle that you will carry in the procession.
+                                    <string key="content">Light your candle that you will carry in the procession.
 
 According to local custom, walk next to Acolyte 1 or next to the crucifer (with Acolyte 1 on the other side). Genuflect when you reach the foot of the altar and proceed to the credence table and place your candle on the back corner of the table. Stand on one side of the credence table with acolyte 1 standing on the other side.
 
@@ -3483,7 +3488,7 @@ If the priest opens the tabernacle, stay kneeling while the tabernacle is open. 
 
 Go to the center of the altar, genuflect at the center, proceed to position 1 and ascend the steps at the side to pick up the missal. Bow to the crucifix, take the missal, bow again, and descend the steps diagonally to the center of the altar, genuflect with acolyte 1, and ascend diagonally to the Epistle side of the altar where you will place the missal, then bow to the crucifix. Then descend the side steps of the altar on the Epistle side and proceed, making a squared corner, to the front of the altar. Genuflect with acolyte 1, and return to your place at the credence table.
 
-When the priest says “Dominus Vobiscum” (just before the Post Communion prayer), rise along with the rest of the servers. Then, kneel just before the priest gives the final blessing. After the final blessing, rise and stand for the Last Gospel, genuflecting at the proper time. After the genuflection during the Last Gospel, rise, retrieve your candle, and line up at the base of the altar in the reverse manner in which you processed in. Genuflect with the priest and the rest of the servers at the signal of the MC and process out of the church in the reverse manner in which you processed in.</mutableString>
+When the priest says “Dominus Vobiscum” (just before the Post Communion prayer), rise along with the rest of the servers. Then, kneel just before the priest gives the final blessing. After the final blessing, rise and stand for the Last Gospel, genuflecting at the proper time. After the genuflection during the Last Gospel, rise, retrieve your candle, and line up at the base of the altar in the reverse manner in which you processed in. Genuflect with the priest and the rest of the servers at the signal of the MC and process out of the church in the reverse manner in which you processed in.</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
@@ -3527,7 +3532,7 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                             <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             <attributedString key="attributedText">
                                 <fragment>
-                                    <mutableString key="content">Several minutes prior to Mass, light coals so they will be burning sufficiently in time for the procession and beginning of Mass.
+                                    <string key="content">Several minutes prior to Mass, light coals so they will be burning sufficiently in time for the procession and beginning of Mass.
 
 Lead the procession to the foot of the altar with thurible in left hand and the boat held over your heart with your right hand, genuflect immediately after reaching the foot of the altar and go to your place and remain there and stay standing throughout the prayers at the foot of the altar.
 
@@ -3543,7 +3548,7 @@ After the priest removes the chalice veil from the chalice (immediately after sa
 
 At the “Hanc Igitur,” proceed to and kneel on the bottom step between positions 5 and 6 with the thurible. At both the elevation of the Body and the Blood, incense the Eucharist with three sets of two swings each. After the elevation of the Precious Blood, rise and place the thurible on its stand in the sacristy and, having returned to your place, kneel. When the priest receives Communion, bow profoundly until the priest stands up straight. At that time, go where directed by the MC and after the priest receives the Precious Blood, bow and say the second confiteor and if you are receiving Communion that Mass, do so as directed. Go back to your place and kneel.
 
-After the acolytes have transferred the missal and chalice veil, go to the sacristy and add incense to the thurible and light another coal if the last one has gone completely out. Return to your place and stand there swinging the thurible until after the Last Gospel, genuflecting at the proper time during the Last Gospel, and then go down the center aisle just far enough that the rest of the servers can line up between you and the priest (who will be standing at the foot of the altar). Genuflect with the priest (typically at the signal of the MC) and then lead all out of the church.</mutableString>
+After the acolytes have transferred the missal and chalice veil, go to the sacristy and add incense to the thurible and light another coal if the last one has gone completely out. Return to your place and stand there swinging the thurible until after the Last Gospel, genuflecting at the proper time during the Last Gospel, and then go down the center aisle just far enough that the rest of the servers can line up between you and the priest (who will be standing at the foot of the altar). Genuflect with the priest (typically at the signal of the MC) and then lead all out of the church.</string>
                                     <attributes>
                                         <font key="NSFont" size="18" name="Papyrus"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
