@@ -16,22 +16,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yx-Mv-Yh9">
+                            <button contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yx-Mv-Yh9">
                                 <rect key="frame" x="20" y="44" width="374" height="337"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Learn!" backgroundImage="IMG_1167">
-                                    <color key="titleColor" red="0.4204939603805542" green="0.085580222308635712" blue="0.11387301236391068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Learn!" backgroundImage="breviary4">
+                                    <color key="titleColor" red="0.037803549778220868" green="0.0019972314659713053" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="MVU-uC-mkW" kind="show" id="Vuc-cl-lwQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlH-3C-g7F">
+                            <button contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlH-3C-g7F">
                                 <rect key="frame" x="20" y="517" width="374" height="337"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
-                                <state key="normal" title="Quiz!" backgroundImage="IMG_1013">
-                                    <color key="titleColor" red="0.42260205745697021" green="0.085533015429973602" blue="0.11383751779794693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Quiz!" backgroundImage="serving">
+                                    <color key="titleColor" red="1" green="0.99173509096255408" blue="0.30545434254260895" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="lfP-kI-XV6" kind="show" id="1KB-2C-d0t"/>
@@ -108,7 +108,7 @@
                                     <constraint firstAttribute="height" constant="40" id="Dbj-xZ-8rg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
-                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -146,10 +146,10 @@
                                 </constraints>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.06924450066" green="0.55465398610000005" blue="0.80169336930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <textAttributes key="largeTitleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.06924450066" green="0.55465398610000005" blue="0.80169336930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="Learn" id="AW7-wd-7zy">
@@ -171,7 +171,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Low Mass">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="snY-YP-IQY" kind="show" id="4Dl-Er-oIo"/>
@@ -182,7 +182,7 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Missa Cantata">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="uCH-T9-y3O" kind="show" id="DoQ-hd-9Le"/>
@@ -194,7 +194,7 @@
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <color key="tintColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="General Knowledge">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Sv3-gw-aKi" kind="show" id="hKk-1T-9Er"/>
@@ -244,10 +244,10 @@
                                 </constraints>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.06924450066" green="0.55465398610000005" blue="0.80169336930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <textAttributes key="largeTitleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="General Knowledge" id="rAw-4E-aEO">
@@ -272,7 +272,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Sitting in Choir">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showSittingInChoir:" destination="Sv3-gw-aKi" eventType="touchUpInside" id="hLU-Hb-l0v"/>
@@ -283,7 +283,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="General Knowledge">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.96734216370558379" green="0.8169108616782319" blue="0.026514147048887732" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showGeneralKnowledge:" destination="Sv3-gw-aKi" eventType="touchUpInside" id="G7E-kN-wfz"/>
@@ -333,7 +333,7 @@
                         </button>
                         <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZf-3a-hEw">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="330"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422564543929" blue="0.73197651840211853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">There are numerous local variations for serving different Masses. While this is a general instruction, it is not authoritative nor will it account for all local customs and variations.
@@ -773,7 +773,7 @@ P Benedíctio ... </string>
                     <subviews>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bue-FX-fxZ">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="317"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">When processing in go in pairs if possible. When you reach the front of the church genuflect towards the altar in pairs, bow towards each other, and then proceed to your seat and stand when you arrive there while facing the altar. Kneel when the priest genuflects to begin Mass.
@@ -839,10 +839,10 @@ At the end of Mass, meet in pairs in a line facing towards the altar and with th
                                 </constraints>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.06924450066" green="0.55465398610000005" blue="0.80169336930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <textAttributes key="largeTitleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.06924450066" green="0.55465398610000005" blue="0.80169336930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="Low Mass" id="YgJ-CW-lKa">
@@ -864,7 +864,7 @@ At the end of Mass, meet in pairs in a line facing towards the altar and with th
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Only Server">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showOnlyServer:" destination="snY-YP-IQY" eventType="touchUpInside" id="1R6-y7-RzN"/>
@@ -875,7 +875,7 @@ At the end of Mass, meet in pairs in a line facing towards the altar and with th
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Acolyte 1 (two servers)">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showAcolyte1:" destination="snY-YP-IQY" eventType="touchUpInside" id="4Rs-p5-Veo"/>
@@ -886,7 +886,7 @@ At the end of Mass, meet in pairs in a line facing towards the altar and with th
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Acolyte 2 (two servers)">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showAcolyte2:" destination="snY-YP-IQY" eventType="touchUpInside" id="pMI-JJ-aCU"/>
@@ -929,7 +929,7 @@ At the end of Mass, meet in pairs in a line facing towards the altar and with th
                     <subviews>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgZ-dr-03U">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">When the priest reaches the altar, prior to genuflecting he will hand his biretta to you as you stand on his right in position 4. Take it and after the genuflection place it on the sedilia (priest’s chair) and return to position 4 and kneel on the floor when the priest genuflects.
@@ -1332,7 +1332,7 @@ Cg
                     <subviews>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRK-59-PGW">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">Acolyte 1 and 2 can begin on either side of the priest when they reach the altar. This will slightly altar each role depending on how they do it.
@@ -1697,7 +1697,7 @@ Cg
                     <subviews>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qoQ-aN-vQQ">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">Acolyte 1 and 2 can begin on either side of the priest when they reach the altar. This will slightly altar each role depending on how they do it.
@@ -1995,13 +1995,13 @@ Cg
                                 </constraints>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.06924450066" green="0.55465398610000005" blue="0.80169336930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <textAttributes key="largeTitleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.06924450066" green="0.55465398610000005" blue="0.80169336930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Two Plus Servers No Incense" id="UgY-Nb-jw0">
+                                    <navigationItem title="Two+ Servers No Incense" id="UgY-Nb-jw0">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="MHB-Qx-0b9">
                                             <connections>
                                                 <segue destination="p7f-rh-y6b" kind="unwind" unwindAction="missaCantataUnwindWithUnwindSegue:" id="SOr-Oa-T0d"/>
@@ -2020,7 +2020,7 @@ Cg
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Acolyte 1">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showAcolyte1:" destination="z6S-2b-P5M" eventType="touchUpInside" id="wCR-rJ-p63"/>
@@ -2031,7 +2031,7 @@ Cg
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Acolyte 2">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showAcolyte2:" destination="z6S-2b-P5M" eventType="touchUpInside" id="g7x-Hx-4c3"/>
@@ -2042,7 +2042,7 @@ Cg
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="MC (if 3+ servers)">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showMC:" destination="z6S-2b-P5M" eventType="touchUpInside" id="DGG-VM-Bhv"/>
@@ -2094,7 +2094,7 @@ Cg
                         </button>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-Li-XkO">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">An MC must have a good knowledge of all of the other roles during the Mass. As noted in the General Knowledge section, the MC may move wherever necessary to give any instructions necessary during the course of the liturgy.
@@ -2335,7 +2335,7 @@ After the Final Gospel, return the card to its place, then proceed to position 4
                         </button>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXe-Vz-LNC">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">Light your candle that you will carry in the procession.
@@ -2402,7 +2402,7 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                         </button>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1f-Iy-IIF">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">Light your candle that you will carry in the procession.
@@ -2481,10 +2481,10 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                                 </constraints>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.06924450066" green="0.55465398610000005" blue="0.80169336930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <textAttributes key="largeTitleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.06924450066" green="0.55465398610000005" blue="0.80169336930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="Missa Cantata" id="UDi-Sm-9Yp">
@@ -2506,7 +2506,7 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Only Server">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showOnlyServer:" destination="uCH-T9-y3O" eventType="touchUpInside" id="dZz-RQ-g5l"/>
@@ -2516,8 +2516,8 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                                 <rect key="frame" x="0.0" y="556" width="414" height="244"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="30"/>
-                                <state key="normal" title="Three Or More Servers Plus Incense">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Three+ Servers With Incense">
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="jAp-TO-gze" kind="show" id="zgE-mQ-fAz"/>
@@ -2527,8 +2527,8 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                                 <rect key="frame" x="0.0" y="304" width="414" height="244"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="30"/>
-                                <state key="normal" title="Two Or More Servers With No Incense">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Two+ Servers No Incense">
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="z6S-2b-P5M" kind="show" id="VQq-f5-Wud"/>
@@ -2578,7 +2578,7 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                         </button>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdp-KF-jJV">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">During a Missa Cantata with one server, most things are the same as at low Mass with one server with the following notes:
@@ -2981,13 +2981,13 @@ Cg
                                 </constraints>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.06924450066" green="0.55465398610000005" blue="0.80169336930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <textAttributes key="largeTitleTextAttributes">
-                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.06924450066" green="0.55465398610000005" blue="0.80169336930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Three Plus Servers With Incense" id="2lf-cf-LVB">
+                                    <navigationItem title="Three+ Servers With Incense" id="2lf-cf-LVB">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="1Tc-Rk-8v9">
                                             <connections>
                                                 <segue destination="dyf-p7-2Pa" kind="unwind" unwindAction="missaCantataUnwindWithUnwindSegue:" id="G3B-Wa-RZU"/>
@@ -3006,7 +3006,7 @@ Cg
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Acolyte 1">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showAcolyte1:" destination="jAp-TO-gze" eventType="touchUpInside" id="e9S-y5-QYN"/>
@@ -3017,7 +3017,7 @@ Cg
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Acolyte 2">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showAcolyte2:" destination="jAp-TO-gze" eventType="touchUpInside" id="2OO-Jn-zHP"/>
@@ -3028,7 +3028,7 @@ Cg
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="Thurifer">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showThurifer:" destination="jAp-TO-gze" eventType="touchUpInside" id="Vva-9V-EIB"/>
@@ -3039,7 +3039,7 @@ Cg
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <state key="normal" title="MC (if 4+ servers)">
-                                    <color key="titleColor" red="0.64789974689483643" green="0.090369291603565216" blue="0.16391292214393616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.97305423020000004" green="0.82173806429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showMC:" destination="jAp-TO-gze" eventType="touchUpInside" id="eK2-lG-9ZL"/>
@@ -3096,7 +3096,7 @@ Cg
                         </button>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njv-AP-tar">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">An MC must have a good knowledge of all of the other roles during the Mass. As noted in the General Knowledge section, the MC may move wherever necessary to give any instructions necessary during the course of the liturgy.
@@ -3397,7 +3397,7 @@ Cg
                         </button>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k89-0h-dEE">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">Light your candle that you will carry in the procession.
@@ -3464,7 +3464,7 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                         </button>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnh-ff-SiP">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">Light your candle that you will carry in the procession.
@@ -3529,7 +3529,7 @@ When the priest says “Dominus Vobiscum” (just before the Post Communion pray
                         </button>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yF-TU-djc">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="98"/>
-                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <color key="backgroundColor" red="1" green="0.95588422559999997" blue="0.7319765184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <attributedString key="attributedText">
                                 <fragment>
                                     <string key="content">Several minutes prior to Mass, light coals so they will be burning sufficiently in time for the procession and beginning of Mass.
@@ -3587,7 +3587,8 @@ After the acolytes have transferred the missal and chalice veil, go to the sacri
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_1013" width="1161" height="1258"/>
-        <image name="IMG_1167" width="2637" height="2637"/>
+        <image name="breviary4" width="1086" height="1118"/>
+        <image name="serving" width="1104" height="1208"/>
     </resources>
+    <color key="tintColor" red="0.069244500658227903" green="0.55465398613134731" blue="0.8016933692893401" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

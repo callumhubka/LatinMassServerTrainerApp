@@ -32,7 +32,7 @@ class MissaCantataViewController: UIViewController {
         //sets blurview to be entire page when called for popups
         blurView.bounds = self.view.bounds
         //sets sizes of popups
-        onlyPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.75)
+        onlyPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.9)
     }
     
 //function that manages animateIn for popups
