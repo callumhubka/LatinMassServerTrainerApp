@@ -2,54 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-20.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-20@2x.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-20@3x.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-29.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-29@2x.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-29@3x.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-40.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-40@2x.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-40@3x.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-60@2x.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-60@3x.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-76.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-76@2x.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-83.5@2x.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-1024.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/IMG_2500.jpg">
-   </FileRef>
-   <FileRef
       location = "self:Latin Mass Server Trainer.xcodeproj">
    </FileRef>
 </Workspace>

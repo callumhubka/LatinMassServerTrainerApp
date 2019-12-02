@@ -9,22 +9,6 @@
 /* Begin PBXBuildFile section */
 		D31AFE6A2355CC7E003369A0 /* NoIncenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31AFE692355CC7E003369A0 /* NoIncenseViewController.swift */; };
 		D31AFE6E2355CCBD003369A0 /* ThreeIncenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31AFE6D2355CCBD003369A0 /* ThreeIncenseViewController.swift */; };
-		D34CF72B23624FDE0085E430 /* IMG_2500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D34CF71B23624FDC0085E430 /* IMG_2500.jpg */; };
-		D34CF72C23624FDE0085E430 /* IMG_2500-76.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF71C23624FDC0085E430 /* IMG_2500-76.png */; };
-		D34CF72D23624FDE0085E430 /* IMG_2500-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF71D23624FDD0085E430 /* IMG_2500-29@3x.png */; };
-		D34CF72E23624FDE0085E430 /* IMG_2500-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF71E23624FDD0085E430 /* IMG_2500-20@2x.png */; };
-		D34CF72F23624FDE0085E430 /* IMG_2500-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF71F23624FDD0085E430 /* IMG_2500-29@2x.png */; };
-		D34CF73023624FDE0085E430 /* IMG_2500-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF72023624FDD0085E430 /* IMG_2500-40@2x.png */; };
-		D34CF73123624FDE0085E430 /* IMG_2500-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF72123624FDD0085E430 /* IMG_2500-60@2x.png */; };
-		D34CF73223624FDE0085E430 /* IMG_2500-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF72223624FDD0085E430 /* IMG_2500-40@3x.png */; };
-		D34CF73323624FDE0085E430 /* IMG_2500-29.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF72323624FDD0085E430 /* IMG_2500-29.png */; };
-		D34CF73423624FDE0085E430 /* IMG_2500-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF72423624FDD0085E430 /* IMG_2500-83.5@2x.png */; };
-		D34CF73523624FDE0085E430 /* IMG_2500-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF72523624FDD0085E430 /* IMG_2500-20@3x.png */; };
-		D34CF73623624FDE0085E430 /* IMG_2500-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF72623624FDD0085E430 /* IMG_2500-40.png */; };
-		D34CF73723624FDE0085E430 /* IMG_2500-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF72723624FDD0085E430 /* IMG_2500-60@3x.png */; };
-		D34CF73823624FDE0085E430 /* IMG_2500-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF72823624FDD0085E430 /* IMG_2500-76@2x.png */; };
-		D34CF73923624FDE0085E430 /* IMG_2500-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF72923624FDE0085E430 /* IMG_2500-1024.png */; };
-		D34CF73A23624FDE0085E430 /* IMG_2500-20.png in Resources */ = {isa = PBXBuildFile; fileRef = D34CF72A23624FDE0085E430 /* IMG_2500-20.png */; };
 		D3C2D465233F42B500CFBBE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D464233F42B500CFBBE3 /* AppDelegate.swift */; };
 		D3C2D467233F42B500CFBBE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D466233F42B500CFBBE3 /* ViewController.swift */; };
 		D3C2D46A233F42B500CFBBE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C2D468233F42B500CFBBE3 /* Main.storyboard */; };
@@ -32,14 +16,11 @@
 		D3C2D46F233F42C400CFBBE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C2D46D233F42C400CFBBE3 /* LaunchScreen.storyboard */; };
 		D3C2D47A233F42C500CFBBE3 /* Latin_Mass_Server_TrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D479233F42C500CFBBE3 /* Latin_Mass_Server_TrainerTests.swift */; };
 		D3C2D485233F42C500CFBBE3 /* Latin_Mass_Server_TrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D484233F42C500CFBBE3 /* Latin_Mass_Server_TrainerUITests.swift */; };
-		D3C2D493233F43A700CFBBE3 /* IMG_1013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3C2D492233F43A600CFBBE3 /* IMG_1013.jpg */; };
-		D3C2D495233F43C700CFBBE3 /* IMG_1167.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3C2D494233F43C700CFBBE3 /* IMG_1167.jpg */; };
 		D3EEF614234C80F6007D4CDA /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EEF613234C80F6007D4CDA /* LearnViewController.swift */; };
 		D3EEF616234C813B007D4CDA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EEF615234C813B007D4CDA /* QuizViewController.swift */; };
 		D3EEF618234C8224007D4CDA /* GeneralKnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EEF617234C8224007D4CDA /* GeneralKnowledgeViewController.swift */; };
 		D3EEF61A234C823E007D4CDA /* LowMassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EEF619234C823E007D4CDA /* LowMassViewController.swift */; };
 		D3EEF61C234C8254007D4CDA /* MissaCantataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EEF61B234C8254007D4CDA /* MissaCantataViewController.swift */; };
-		D3EEF61E234C8266007D4CDA /* SolemnMassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EEF61D234C8266007D4CDA /* SolemnMassViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,22 +43,6 @@
 /* Begin PBXFileReference section */
 		D31AFE692355CC7E003369A0 /* NoIncenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIncenseViewController.swift; sourceTree = "<group>"; };
 		D31AFE6D2355CCBD003369A0 /* ThreeIncenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeIncenseViewController.swift; sourceTree = "<group>"; };
-		D34CF71B23624FDC0085E430 /* IMG_2500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_2500.jpg; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/IMG_2500.jpg"; sourceTree = "<group>"; };
-		D34CF71C23624FDC0085E430 /* IMG_2500-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-76.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-76.png"; sourceTree = "<group>"; };
-		D34CF71D23624FDD0085E430 /* IMG_2500-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-29@3x.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-29@3x.png"; sourceTree = "<group>"; };
-		D34CF71E23624FDD0085E430 /* IMG_2500-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-20@2x.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-20@2x.png"; sourceTree = "<group>"; };
-		D34CF71F23624FDD0085E430 /* IMG_2500-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-29@2x.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-29@2x.png"; sourceTree = "<group>"; };
-		D34CF72023624FDD0085E430 /* IMG_2500-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-40@2x.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-40@2x.png"; sourceTree = "<group>"; };
-		D34CF72123624FDD0085E430 /* IMG_2500-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-60@2x.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-60@2x.png"; sourceTree = "<group>"; };
-		D34CF72223624FDD0085E430 /* IMG_2500-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-40@3x.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-40@3x.png"; sourceTree = "<group>"; };
-		D34CF72323624FDD0085E430 /* IMG_2500-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-29.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-29.png"; sourceTree = "<group>"; };
-		D34CF72423624FDD0085E430 /* IMG_2500-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-83.5@2x.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-83.5@2x.png"; sourceTree = "<group>"; };
-		D34CF72523624FDD0085E430 /* IMG_2500-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-20@3x.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-20@3x.png"; sourceTree = "<group>"; };
-		D34CF72623624FDD0085E430 /* IMG_2500-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-40.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-40.png"; sourceTree = "<group>"; };
-		D34CF72723624FDD0085E430 /* IMG_2500-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-60@3x.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-60@3x.png"; sourceTree = "<group>"; };
-		D34CF72823624FDD0085E430 /* IMG_2500-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-76@2x.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-76@2x.png"; sourceTree = "<group>"; };
-		D34CF72923624FDE0085E430 /* IMG_2500-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-1024.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-1024.png"; sourceTree = "<group>"; };
-		D34CF72A23624FDE0085E430 /* IMG_2500-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IMG_2500-20.png"; path = "../../../Jerusalem, Jerusalem - Madregot HaBikur, January 2, 2013/iOS/AppIcon.appiconset/IMG_2500-20.png"; sourceTree = "<group>"; };
 		D3C2D461233F42B400CFBBE3 /* Latin Mass Server Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Latin Mass Server Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C2D464233F42B500CFBBE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C2D466233F42B500CFBBE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,14 +56,11 @@
 		D3C2D480233F42C500CFBBE3 /* Latin Mass Server TrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Latin Mass Server TrainerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C2D484233F42C500CFBBE3 /* Latin_Mass_Server_TrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latin_Mass_Server_TrainerUITests.swift; sourceTree = "<group>"; };
 		D3C2D486233F42C500CFBBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3C2D492233F43A600CFBBE3 /* IMG_1013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1013.jpg; path = ../../../IMG_1013.jpg; sourceTree = "<group>"; };
-		D3C2D494233F43C700CFBBE3 /* IMG_1167.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1167.jpg; path = ../../../LatinMassServerTrainer/IMG_1167.jpg; sourceTree = "<group>"; };
 		D3EEF613234C80F6007D4CDA /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		D3EEF615234C813B007D4CDA /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		D3EEF617234C8224007D4CDA /* GeneralKnowledgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralKnowledgeViewController.swift; sourceTree = "<group>"; };
 		D3EEF619234C823E007D4CDA /* LowMassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowMassViewController.swift; sourceTree = "<group>"; };
 		D3EEF61B234C8254007D4CDA /* MissaCantataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissaCantataViewController.swift; sourceTree = "<group>"; };
-		D3EEF61D234C8266007D4CDA /* SolemnMassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolemnMassViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +111,6 @@
 		D3C2D463233F42B400CFBBE3 /* Latin Mass Server Trainer */ = {
 			isa = PBXGroup;
 			children = (
-				D3C2D494233F43C700CFBBE3 /* IMG_1167.jpg */,
 				D3EEF613234C80F6007D4CDA /* LearnViewController.swift */,
 				D3EEF615234C813B007D4CDA /* QuizViewController.swift */,
 				D3C2D464233F42B500CFBBE3 /* AppDelegate.swift */,
@@ -160,27 +121,9 @@
 				D3C2D468233F42B500CFBBE3 /* Main.storyboard */,
 				D31AFE692355CC7E003369A0 /* NoIncenseViewController.swift */,
 				D31AFE6D2355CCBD003369A0 /* ThreeIncenseViewController.swift */,
-				D3EEF61D234C8266007D4CDA /* SolemnMassViewController.swift */,
-				D3C2D492233F43A600CFBBE3 /* IMG_1013.jpg */,
 				D3C2D46B233F42C400CFBBE3 /* Assets.xcassets */,
 				D3C2D46D233F42C400CFBBE3 /* LaunchScreen.storyboard */,
 				D3C2D470233F42C400CFBBE3 /* Info.plist */,
-				D34CF72A23624FDE0085E430 /* IMG_2500-20.png */,
-				D34CF71E23624FDD0085E430 /* IMG_2500-20@2x.png */,
-				D34CF72523624FDD0085E430 /* IMG_2500-20@3x.png */,
-				D34CF72323624FDD0085E430 /* IMG_2500-29.png */,
-				D34CF71F23624FDD0085E430 /* IMG_2500-29@2x.png */,
-				D34CF71D23624FDD0085E430 /* IMG_2500-29@3x.png */,
-				D34CF72623624FDD0085E430 /* IMG_2500-40.png */,
-				D34CF72023624FDD0085E430 /* IMG_2500-40@2x.png */,
-				D34CF72223624FDD0085E430 /* IMG_2500-40@3x.png */,
-				D34CF72123624FDD0085E430 /* IMG_2500-60@2x.png */,
-				D34CF72723624FDD0085E430 /* IMG_2500-60@3x.png */,
-				D34CF71C23624FDC0085E430 /* IMG_2500-76.png */,
-				D34CF72823624FDD0085E430 /* IMG_2500-76@2x.png */,
-				D34CF72423624FDD0085E430 /* IMG_2500-83.5@2x.png */,
-				D34CF72923624FDE0085E430 /* IMG_2500-1024.png */,
-				D34CF71B23624FDC0085E430 /* IMG_2500.jpg */,
 			);
 			path = "Latin Mass Server Trainer";
 			sourceTree = "<group>";
@@ -307,27 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D34CF73423624FDE0085E430 /* IMG_2500-83.5@2x.png in Resources */,
-				D34CF72B23624FDE0085E430 /* IMG_2500.jpg in Resources */,
-				D34CF73523624FDE0085E430 /* IMG_2500-20@3x.png in Resources */,
-				D34CF73923624FDE0085E430 /* IMG_2500-1024.png in Resources */,
-				D34CF72C23624FDE0085E430 /* IMG_2500-76.png in Resources */,
-				D34CF73723624FDE0085E430 /* IMG_2500-60@3x.png in Resources */,
-				D34CF72E23624FDE0085E430 /* IMG_2500-20@2x.png in Resources */,
-				D3C2D493233F43A700CFBBE3 /* IMG_1013.jpg in Resources */,
-				D34CF73023624FDE0085E430 /* IMG_2500-40@2x.png in Resources */,
-				D34CF72D23624FDE0085E430 /* IMG_2500-29@3x.png in Resources */,
-				D34CF73A23624FDE0085E430 /* IMG_2500-20.png in Resources */,
-				D34CF73823624FDE0085E430 /* IMG_2500-76@2x.png in Resources */,
-				D3C2D495233F43C700CFBBE3 /* IMG_1167.jpg in Resources */,
-				D34CF72F23624FDE0085E430 /* IMG_2500-29@2x.png in Resources */,
 				D3C2D46F233F42C400CFBBE3 /* LaunchScreen.storyboard in Resources */,
-				D34CF73123624FDE0085E430 /* IMG_2500-60@2x.png in Resources */,
-				D34CF73623624FDE0085E430 /* IMG_2500-40.png in Resources */,
 				D3C2D46C233F42C400CFBBE3 /* Assets.xcassets in Resources */,
-				D34CF73323624FDE0085E430 /* IMG_2500-29.png in Resources */,
 				D3C2D46A233F42B500CFBBE3 /* Main.storyboard in Resources */,
-				D34CF73223624FDE0085E430 /* IMG_2500-40@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +280,6 @@
 				D31AFE6A2355CC7E003369A0 /* NoIncenseViewController.swift in Sources */,
 				D3C2D467233F42B500CFBBE3 /* ViewController.swift in Sources */,
 				D3C2D465233F42B500CFBBE3 /* AppDelegate.swift in Sources */,
-				D3EEF61E234C8266007D4CDA /* SolemnMassViewController.swift in Sources */,
 				D3EEF614234C80F6007D4CDA /* LearnViewController.swift in Sources */,
 				D3EEF618234C8224007D4CDA /* GeneralKnowledgeViewController.swift in Sources */,
 				D3EEF616234C813B007D4CDA /* QuizViewController.swift in Sources */,
@@ -467,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -522,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -539,12 +463,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 479QA3T36R;
 				INFOPLIST_FILE = "Latin Mass Server Trainer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Callum.Hubka.Latin-Mass-Server-Trainer";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CallumHubka.LatinMassServerTrainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -558,12 +483,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 479QA3T36R;
 				INFOPLIST_FILE = "Latin Mass Server Trainer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Callum.Hubka.Latin-Mass-Server-Trainer";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CallumHubka.LatinMassServerTrainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
