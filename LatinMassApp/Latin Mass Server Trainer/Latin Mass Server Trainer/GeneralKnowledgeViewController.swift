@@ -19,6 +19,10 @@ class GeneralKnowledgeViewController: UIViewController {
         animateIn(desiredView: blurView)
         animateIn(desiredView: sittingPopupView)
     }
+    @IBAction func showDiagram(_ sender: Any) {
+        animateIn(desiredView: blurView2)
+        animateIn(desiredView: diagramView)
+    }
     
     //buttons dismissing respective popups and blur view
     @IBAction func doneGeneral(_ sender: Any) {
@@ -29,11 +33,18 @@ class GeneralKnowledgeViewController: UIViewController {
         animateOut(desiredView: sittingPopupView)
         animateOut(desiredView: blurView)
     }
+    @IBAction func doneDiagram(_ sender: Any) {
+        animateOut(desiredView: diagramView)
+        animateOut(desiredView: blurView2)
+    }
     
     //connection between popups/blurView and view controller
     @IBOutlet var generalPopupView: UIView!
     @IBOutlet var sittingPopupView: UIView!
     @IBOutlet var blurView: UIVisualEffectView!
+    @IBOutlet var diagramView: UIView!
+    //required because of layering of views
+    @IBOutlet var blurView2: UIVisualEffectView!
     
     //connection to text view so image can be added programmatically
     @IBOutlet var generalTextView: UITextView!
@@ -250,14 +261,17 @@ P Benedíctio ... ✚ … Amen.
         
         //sets blurview to be entire page when called for popups
         blurView.bounds = self.view.bounds
+        //second blurview so you don't eliminate the blur view when dismissing the diagram popup
+        blurView2.bounds = self.view.bounds
         //sets sizes of popups
         generalPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.9)
         sittingPopupView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.9)
+        diagramView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: (self.view.bounds.width * 0.9) * (442/577))
     }
     
 //function that manages animateIn for popups
 func animateIn(desiredView: UIView) {
-    let backgroundView = self.view!
+    let backgroundView = self.view! //needs to be within viewController, cannot place in another file and imported in
     
     backgroundView.addSubview(desiredView)
     
@@ -279,6 +293,5 @@ func animateOut(desiredView: UIView) {
         desiredView.removeFromSuperview()
     })
 }
-
 
 }
